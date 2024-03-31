@@ -148,64 +148,65 @@ padding: 14px;
 
 /*********************center****************/
 #center{
-background-image: url(../img/1.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-padding-top:150px;
-padding-bottom:120px;
-}
-#center{
-margin-top:19px;
-}
-.center_left{
-padding-top:140px;
-background-color: #00000073;
-padding: 20px 20px 65px 40px;
-}
-.center_left .hr_1{
-border-color:#fff;
-border-width:2px;
-width:50%;
-float:left;
-}
-.center_left_inner {
-margin-top:60px;
-}
-
-.center_left_inner p{
-clear:left;
-width:70%;
-color:#fff;
-font-size:22px;
-}
-.center_left_inner_1{
-margin-top:10px;  
-}
-.center_left_inner_1 .hr_2{
-border-color:#fff;
-border-width:2px;
-width:9%;
-float:left;
-}
-.center_left_inner_1 h1{
-clear:left;
-color:#FFFFFF;
-font-size:55px;
-}
-.center_left_inner_1 p{
-margin-top:60px;
-}
-.center_left_inner_1 p a{
-background:#de5221;
-padding:20px 45px 23px 45px;
-color:#fff;
-font-size:18px;
-letter-spacing:1px;
-border-radius:30px;
-}
-.center_left_inner_1 p a:hover{
-background:#b2421a;
-}
+  background-image: url(../img/Capitol_Hill2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:150px;
+  padding-bottom:120px;
+   }
+ #center{
+   margin-top:19px;
+    }
+ .center_left{
+   padding-top:140px;
+   background-color: #00000073;
+   padding: 20px 20px 65px 40px;
+   }
+ .center_left .hr_1{
+   border-color:#fff;
+   border-width:2px;
+   width:50%;
+   float:left;
+   }
+ .center_left_inner {
+ margin-top:60px;
+   }
+ 
+ .center_left_inner p{
+  clear:left;
+  width:70%;
+  color:#fff;
+  font-size:22px;
+   }
+ .center_left_inner_1{
+ margin-top:10px;  
+   }
+ .center_left_inner_1 .hr_2{
+   border-color:#fff;
+   border-width:2px;
+   width:9%;
+   float:left;
+   }
+ .center_left_inner_1 h1{
+ clear:left;
+ color:#FFFFFF;
+ font-size:55px;
+   }
+ .center_left_inner_1 p{
+ margin-top:60px;
+   }
+ .center_left_inner_1 p a{
+ background:#de5221;
+ padding:20px 45px 23px 45px;
+ color:#fff;
+ font-size:18px;
+ letter-spacing:1px;
+ border-radius:30px;
+   }
+ .center_left_inner_1 p a:hover{
+ background:#b2421a;
+   }
+ 
 /*********************center_end****************/
 /*********************research****************/
 #research{
@@ -1345,7 +1346,7 @@ letter-spacing: 1px;
 /*********************gallery_main_end****************/
 /*********************team_main****************/
 #team_main{ 
-background-image: url(../img/53.jpg);
+background-image: url(../img/Teamwork.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 padding-top: 197px;
