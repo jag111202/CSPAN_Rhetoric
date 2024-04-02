@@ -79,157 +79,166 @@
 	<p>It is easy for one to see that rhetoric has become more heated, but trying to observe such changes requires a clear definition of “sentiment.” Unfortunately, the number of definitions for this concept approximates the number of tools, so it is difficult to say which definition is best.​
 		"Vader" and "TextBlob" may sound like movie titles, but the way they help analyze sentiment is very real. Comparing these methods to traditional dictionary-based approaches gives the sentiment analysis sub-team a clearer picture of polarization on Capitol Hill.​​</p>
    </div>
-   <div class="col-sm-12 pull clearfix space_all">
-    <div class="col-sm-7 pull space_all">
-      <!-- Div for the violin plot -->
-      <div id="plot"></div>
-      <!-- Button to expand -->
-      <button id="expandButton" onclick="toggleExpand()">Expand Graph</button>
-    </div>
-    <div class="col-sm-5 pull" id="textBoxContainer">
-		<div class="about_inner_1" id="textBox">
-			<h2 class="title-with-logo">TextBlob <img src="img/Textblob_logo.png" class="logo"></h2>
-			<ul style="list-style-type: disc; font-size: 20px;">
-			  <li>Uses NLP techniques to compute subjectivity and polarity</li>
-			  <li>Has use cases beyond sentiment</li>
-			  <li>Easy to use but slow</li>
-			</ul>
-		  </div>	  
-	  </div>
-	  
-  </div>
-
-  <script>
-    var plotElement = document.getElementById('plot');
-	var textBoxContainer = document.getElementById('textBoxContainer');
-	var originalWidth = plotElement.offsetWidth;
-	var originalHeight = plotElement.offsetHeight;
-	var originalTop = textBoxContainer.offsetTop;
-	var expanded = false;
-
-	function toggleExpand() {
-  if (!expanded) {
-    // Expand the plot
-    plotElement.style.width = '90vh';
-    plotElement.style.height = '90vh'; // 90% of viewport height
-    plotElement.style.left = '0%'; // Center the plot horizontally
-
-    // Move the textbox down by 500 pixels and shift it to the right
-    textBoxContainer.style.top = (originalTop + 500) + 'px'; 
-    textBoxContainer.style.left = '10%'; // Adjust this value for the desired shift
-
-    expanded = true;
-  } else {
-    // Restore original size
-    plotElement.style.width = originalWidth + 'px';
-    plotElement.style.height = originalHeight + 'px';
-    plotElement.style.left = '0'; // Reset to original left position
-
-    // Restore original position for the textbox
-    textBoxContainer.style.top = originalTop + 'px'; 
-    textBoxContainer.style.left = '0%'; // Reset to original left position
-
-    expanded = false;
-  }
-
-  // Replot the graph to fit the new size
-  Plotly.relayout('plot', {
-    width: plotElement.offsetWidth,
-    height: plotElement.offsetHeight
-  });
-}
-
-   // Load data from CSV file
-d3.csv("melted_data.csv").then(function(data) {
-  // Create the violin plot using Plotly and D3.js
-  var layout = {
-    title: "Violin Plot",
-    xaxis: {
-      title: "Analysis Type",
-      automargin: true, // Automatically adjust margin to fit labels
-    },
-    yaxis: {
-      title: "Value",
-      automargin: true, // Automatically adjust margin to fit labels
-    },
-    violinmode: "group",
-    width: originalWidth,
-    height: originalHeight,
-    margin: { // Adjust margins as needed
-      l: 80, // Left margin
-      r: 20, // Right margin
-      t: 80, // Top margin
-      b: 80, // Bottom margin
-    },
-  };
-
-  var config = { responsive: true };
-
-  var traces = [];
-  var variables = [...new Set(data.map(d => d.variable))];
-
-  variables.forEach(function(variable, index) {
-    var subset = data.filter(d => d.variable === variable);
-    var trace = {
-      type: "violin",
-      x: subset.map(d => d.variable),
-      y: subset.map(d => d.value),
-      legendgroup: variable,
-      scalegroup: variable,
-      name: variable,
-      side: "both",
-      line: { color: getColor(index, variables.length) },
-      fillcolor: getColor(index, variables.length),
-      hoveron: "points",
-      hoverinfo: "y+name",
-      box: { visible: true },
-      meanline: { visible: true },
-      scalemode: "count"
-    };
-    traces.push(trace);
-  });
-
-  Plotly.newPlot("plot", traces, layout, config);
-}).catch(function(error) {
-  throw error;
-});
-
-// Function to get different colors
-function getColor(index, total) {
-  var colorScale = d3.scaleSequential()
-    .domain([0, total])
-    .interpolator(d3.interpolateRainbow);
-  return colorScale(index);
-}
-
-  </script>
-</body>
-</html>
    <div class="col-sm-12 space_all">
     <div class="col-sm-4 space_all">
-	 <div class="about_3">
-	  <ul>
-	  </ul>
-	 </div>
-	</div>
-	<div class="col-sm-12 pull clearfix space_all">
-		<div class="col-sm-7 pull space_all">
-		  <div class="about_inner">
-			<img src="img/40.jpg">
-		  </div>
-		  <div class="about_inner_1" id="textBox">
-			<h2>VADER</h2>
-			<ul style="list-style-type: disc; font-size: 20px;">
-			  <li>Analyze sentiment for social media​</li>
-			  <li>Handles slang and nuance well​</li>
-			  <li>Immediate deployment with efficient analysis​</li>
-			  <li>Not as suitable for politician speeches</li>
-			</ul>
-		  </div>
-		</div>
-		<div class="col-sm-5 pull">
-		</div>
-	  </div>
+        <div class="about_3">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-12 pull clearfix space_all">
+        <div class="col-sm-7 pull space_all">
+            <div class="about_inner">
+                <!-- Div for the violin plot -->
+                <div id="plot"></div>
+            </div>
+            <div class="about_inner_12" id="textBox">
+                <h2 class="title-with-logo">TextBlob <img src="img/Textblob_logo.png" class="logo"></h2>
+                <ul>
+					<ul style="list-style-type: disc; font-size: 20px;">
+                    <li>Uses NLP techniques to compute subjectivity and polarity</li>
+                    <li>Has use cases beyond sentiment</li>
+                    <li>Easy to use but slow</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-5 pull">
+        </div>
+    </div>
+</div>
+
+<script>
+  // Load data from CSV file
+  d3.csv("melted_data.csv").then(function(data) {
+    // Create the violin plot using Plotly and D3.js
+    var layout = {
+      title: "Violin Plot",
+      xaxis: {
+        title: "Analysis Type",
+        automargin: true, // Automatically adjust margin to fit labels
+      },
+      yaxis: {
+        title: "Value",
+        automargin: true, // Automatically adjust margin to fit labels
+      },
+      violinmode: "group",
+      width: 950, // Adjusted width
+      height: 600, // Adjusted height
+      margin: {
+        l: 80, // Left margin
+        r: 20, // Right margin
+        t: 80, // Top margin
+        b: 80, // Bottom margin
+      },
+    };
+
+    var config = { responsive: true };
+
+    var traces = [];
+    var variables = [...new Set(data.map(d => d.variable))];
+
+    variables.forEach(function(variable, index) {
+      var subset = data.filter(d => d.variable === variable);
+      var trace = {
+        type: "violin",
+        x: subset.map(d => d.variable),
+        y: subset.map(d => d.value),
+        legendgroup: variable,
+        scalegroup: variable,
+        name: variable,
+        side: "both",
+        line: { color: getColor(index, variables.length) },
+        fillcolor: getColor(index, variables.length),
+        hoveron: "points",
+        hoverinfo: "y+name",
+        box: { visible: true },
+        meanline: { visible: true },
+        scalemode: "count"
+      };
+      traces.push(trace);
+    });
+
+    Plotly.newPlot("plot", traces, layout, config);
+  }).catch(function(error) {
+    throw error;
+  });
+
+  // Function to get different colors
+  function getColor(index, total) {
+    var colorScale = d3.scaleSequential()
+      .domain([0, total])
+      .interpolator(d3.interpolateRainbow);
+    return colorScale(index);
+  }
+
+</script>
+</body>
+</html>
+
+<div class="col-sm-12 space_all">
+    <div class="col-sm-4 space_all">
+        <div class="about_3">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-12 pull clearfix space_all">
+        <div class="col-sm-7 pull space_all">
+            <div class="about_inner">
+                <!-- Embed the plotly graph here -->
+                <div id="plotly-graph"></div>
+            </div>
+            <div class="about_inner_1" id="textBox">
+                <h2>VADER</h2>
+                <ul style="list-style-type: disc; font-size: 20px;">
+                    <li>Analyze sentiment for social media​</li>
+                    <li>Handles slang and nuance well​</li>
+                    <li>Immediate deployment with efficient analysis​</li>
+                    <li>Not as suitable for politician speeches</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-5 pull">
+        </div>
+    </div>
+</div>
+
+<script>
+  // Data for the graph
+  var data = [
+    {
+      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
+      y: [0.72, 0.55, 0.87, 0.66],
+      type: 'bar',
+      name: 'Positive',
+      marker: {color: 'rgba(0, 159, 0, 0.25)', line: {color: 'rgba(0, 159, 0, 0.60)', width: 1.5}}
+    },
+    {
+      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
+      y: [0.07, 0.08, 0.05, 0.08],
+      type: 'bar',
+      name: 'Neutral',
+      marker: {color: 'rgba(0, 0, 0, 0.25)', line: {color: 'rgba(0, 0, 0, 0.60)', width: 1.5}}
+    },
+    {
+      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
+      y: [0.21, 0.38, 0.09, 0.27],
+      type: 'bar',
+      name: 'Negative',
+      marker: {color: 'rgba(159, 0, 0, 0.25)', line: {color: 'rgba(159, 0, 0, 0.60)', width: 1.5}}
+    }
+  ];
+
+  // Layout for the graph
+  var layout = {
+    xaxis: {title: 'President and Topic'},
+    yaxis: {title: 'Sentiment Percentage'},
+    barmode: 'stack'
+  };
+
+  // Create the plotly graph
+  Plotly.newPlot('plotly-graph', data, layout);
+</script>
 	  
    <div class="col-sm-12 space_all">
     <div class="col-sm-4 space_all">
@@ -301,7 +310,7 @@ function getColor(index, total) {
 		 </div>
 		 <div class="team_inner clearfix text-center">
 		 <h3><a href="#">Sandra</a></h3>
-		 <h4>Owner</h4>
+		 <h4>Researcher</h4>
 		  <p class="para_2">Worked in Vader Methodology </p>
 		  <ul>
 			  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -321,7 +330,7 @@ function getColor(index, total) {
 		 </div>
 		 <div class="team_inner clearfix text-center">
 		 <h3><a href="#">Carson</a></h3>
-		 <h4>Scientist</h4>
+		 <h4>Researcher</h4>
 		  <p class="para_2">Worked in Dictionary Method </p>
 		  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 		</div>

@@ -1217,7 +1217,7 @@ color: #de5221;
 background-image: url(../img/Demo_Repub.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
-padding-top: 197px;
+padding-top: 200px;
 padding-bottom: 140px;
 }
 .center_about_left{
@@ -2222,11 +2222,11 @@ margin-bottom: 0px;
 }
 .about_inner_12 {
   position: absolute;
-  background: #de5221;
-  border: 1px solid #de5221;
+  background: #d6362a;
+  border: 1px solid #d6362a;
   width: 70%;
-  left: 120%;
-  top: 500px;
+  left: 140%;
+  top: 0;
   padding: 2em;
   color: #fff;
   box-sizing: border-box;
@@ -2236,7 +2236,7 @@ margin-bottom: 0px;
   background: #d6362a;
   border: 1px solid #d6362a;
   width: 70%;
-  left: 100%;
+  left: 110%;
   top: 0;
   padding: 2em;
   color: #fff;
@@ -2264,7 +2264,16 @@ margin-bottom: 0px;
     margin-top: 20px;
   }
 }
-
+ /* Button styling */
+ .expand-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .about_3 ul{ 
   padding-top:30px;
   padding-bottom:30px;
