@@ -11,10 +11,14 @@
 	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
      <script src="js/jquery-2.1.1.min.js"></script>
 	 <script src="js/bootstrap.min.js"></script>
-
-    
-  </head>
-  
+	 <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Violin Plot with D3.js</title>
+  <!-- Load D3.js and Plotly from CDN -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</style>
+</head>
 <body>
 	<section id="header">
 		<nav class="navbar navbar-default navbar-fixed-top nav_home">
@@ -37,28 +41,26 @@
 						<li><a class="color_1" href="index.html">Home</a></li>	
 						<li><a class="color_1" href="sentiment_analysis.html">Sentiment Analysis</a></li>						
 						<li><a class=" color_1" href="audio_analysis.html">Audio Analysis</a></li>
-						<li><a class=" color_1" href="hate_crimes.html">Hate Crimes</a></li>					
-						<li><a class="color_1" href="gallery.html">Gallery</a></li>					
+						<li><a class=" color_1" href="hate_crimes.html">Hate Speech Analysis</a></li>								
 						<li><a class=" color_1" href="team.html">Team</a></li>
-						<li><a class="color_1" href="contact.html">Contacts</a></li>				
 					</ul>				
-				</div>	
+				</div>			
 			<!-- Collect the nav links, forms, and other content for toggling -->			
 			<!-- /.navbar-collapse -->
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
-</section>	
- <section id="blog_main">
+	</section>
+	
+ <section id="center_about_Audio">
    <div class="container">
 	    <div class="row">
-		  <div class="blog_main_1 clearfix">
+		  <div class=" center_about_Audio clearfix">
 			<div class="col-sm-7">
 			 <div class="center_about_left">
-			   <div class="blog_main_2 clearfix">
+			   <div class="center_about_left_inner_1 clearfix">
 			     <hr class="hr_2">
-				 <h1>Popular Blogs</h1>
-				 <p>BLOG</p>
+				 <h1>Audio Analysis</h1>
 			   </div>
 			 </div>
 			</div>
@@ -66,289 +68,272 @@
 		  </div>
 		</div>
 	  </div>  	  
-</section>
-	
- <section id="blog">
-	  <div class="container">
-	   <div class="row">
-		<div class="blog clearfix">
-		 <div class="col-sm-9">
-		  <div class="blog_left">
-			<h4><a href="#">Lorem ipsum dolor sit amet,  elit Integer nec odio dapibus diam </a></h4>
-			<div class="card-image"><img src="img/13.jpg" width="100%"></div>
-			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
-			<h3><a href="#">Read More</a></h3>
+	</section>
+<section id="about">
+ <div class="container">
+  <div class="row">
+   <div class="about_1">
+    <h2>Methodology</h2>
+	<p>Vocal pitch, also known as the fundamental frequency (F0), has been found to reflect the emotional state and intensity of a speaker.​​</p>
+   </div>
+   <div class="col-sm-12 space_all">
+    <div class="col-sm-4 space_all">
+        <div class="about_3">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-12 space_all">
+      <div class="col-sm-4 space_all">
+          <div class="about_3">
+              <ul>
+              </ul>
+          </div>
+      </div>
+      <div class="col-sm-12 pull clearfix space_all">
+          <div class="col-sm-7 pull space_all">
+              <div class="about_inner">
+                  <!-- Embed the plotly graph here -->
+                  <div id="plot"></div>
+              </div>
+              <div class="about_inner_1" id="textBox">
+                <h2>TextBlob</h2>
+                <ul style="list-style-type: disc; font-size: 20px;">
+                  <li>Uses NLP techniques to compute subjectivity and polarity</li>
+                  <li>Has use cases beyond sentiment</li>
+                  <li>Easy to use but slow</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-5 pull">
+        </div>
+    </div>
+</div>
+
+<script>
+  // Load data from CSV file
+  d3.csv("melted_data.csv").then(function(data) {
+    // Create the violin plot using Plotly and D3.js
+    var layout = {
+      title: "Violin Plot",
+      xaxis: {
+        title: "Analysis Type",
+        automargin: true, // Automatically adjust margin to fit labels
+      },
+      yaxis: {
+        title: "Value",
+        automargin: true, // Automatically adjust margin to fit labels
+      },
+      violinmode: "group",
+      width: 700, // Adjusted width
+      height: 480, // Adjusted height
+      margin: {
+        l: 80, // Left margin
+        r: 20, // Right margin
+        t: 80, // Top margin
+        b: 80, // Bottom margin
+      },
+    };
+
+    var config = { responsive: true };
+
+    var traces = [];
+    var variables = [...new Set(data.map(d => d.variable))];
+
+    variables.forEach(function(variable, index) {
+      var subset = data.filter(d => d.variable === variable);
+      var trace = {
+        type: "violin",
+        x: subset.map(d => d.variable),
+        y: subset.map(d => d.value),
+        legendgroup: variable,
+        scalegroup: variable,
+        name: variable,
+        side: "both",
+        line: { color: getColor(index, variables.length) },
+        fillcolor: getColor(index, variables.length),
+        hoveron: "points",
+        hoverinfo: "y+name",
+        box: { visible: true },
+        meanline: { visible: true },
+        scalemode: "count"
+      };
+      traces.push(trace);
+    });
+
+    Plotly.newPlot("plot", traces, layout, config);
+  }).catch(function(error) {
+    throw error;
+  });
+
+  // Function to get different colors
+  function getColor(index, total) {
+    var colorScale = d3.scaleSequential()
+      .domain([0, total])
+      .interpolator(d3.interpolateRainbow);
+    return colorScale(index);
+  }
+
+</script>
+</body>
+</html>
+
+<div class="col-sm-12 space_all">
+    <div class="col-sm-4 space_all">
+        <div class="about_3">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-12 pull clearfix space_all">
+        <div class="col-sm-7 pull space_all">
+            <div class="about_inner">
+                <!-- Embed the plotly graph here -->
+                <div id="plotly-graph"></div>
+            </div>
+            <div class="about_inner_1" id="textBox">
+                <h2>VADER</h2>
+                <ul style="list-style-type: disc; font-size: 20px;">
+                    <li>Analyze sentiment for social media​</li>
+                    <li>Handles slang and nuance well​</li>
+                    <li>Immediate deployment with efficient analysis​</li>
+                    <li>Not as suitable for politician speeches</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-5 pull">
+        </div>
+    </div>
+</div>
+
+<script>
+  // Data for the graph
+  var data = [
+    {
+      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
+      y: [0.72, 0.55, 0.87, 0.66],
+      type: 'bar',
+      name: 'Positive',
+      marker: {color: 'rgba(0, 159, 0, 0.25)', line: {color: 'rgba(0, 159, 0, 0.60)', width: 1.5}}
+    },
+    {
+      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
+      y: [0.07, 0.08, 0.05, 0.08],
+      type: 'bar',
+      name: 'Neutral',
+      marker: {color: 'rgba(0, 0, 0, 0.25)', line: {color: 'rgba(0, 0, 0, 0.60)', width: 1.5}}
+    },
+    {
+      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
+      y: [0.21, 0.38, 0.09, 0.27],
+      type: 'bar',
+      name: 'Negative',
+      marker: {color: 'rgba(159, 0, 0, 0.25)', line: {color: 'rgba(159, 0, 0, 0.60)', width: 1.5}}
+    }
+  ];
+
+  // Layout for the graph
+  var layout = {
+    xaxis: {title: 'President and Topic'},
+    yaxis: {title: 'Sentiment Percentage'},
+    barmode: 'stack'
+  };
+
+  // Create the plotly graph
+  Plotly.newPlot('plotly-graph', data, layout);
+</script>
+	  
+   <div class="col-sm-12 space_all">
+    <div class="col-sm-4 space_all">
+	 <div class="about_3">
+	  <ul>
+	    
+	  </ul>
+	  
+	 </div>
+	</div>
+	<div class="col-sm-12 pull clearfix space_all">
+		<div class="col-sm-7 pull space_all">
+		  <div class="about_inner">
+			<img src="img/40.jpg">
 		  </div>
-		  <div class="col-sm-12">
-		   <div class="col-sm-6">
-		    <div class="blog_left">
-			<h4><a href="#"> Sed cursus ante</a></h4>
-			<h5><i class="fa fa-calendar"></i>11.05.2017</h5>
-			<div class="card-image"><img src="img/14.jpg" width="100%"></div>
-			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
-			<h3><a href="#">Read More</a></h3>
-		  </div>
-		   </div>
-		   <div class="col-sm-6">
-		    <div class="blog_left">
-			<h4><a href="#">Lorem ipsum dolor</a></h4>
-			<h5><i class="fa fa-calendar"></i>11.05.2017</h5>
-			<div class="card-image"><img src="img/15.jpg" width="100%"></div>
-			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
-			<h3><a href="#">Read More</a></h3>
-		  </div>
-		   </div>
-		  </div>
-          <div class="col-sm-12">
-		   <div class="col-sm-6">
-		    <div class="blog_left">
-			<h4><a href="#"> Sed cursus ante</a></h4>
-			<h5><i class="fa fa-calendar"></i>11.05.2017</h5>
-			<div class="card-image"><img src="img/43.jpg" width="100%"></div>
-			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
-			<h3><a href="#">Read More</a></h3>
-		  </div>
-		   </div>
-		   <div class="col-sm-6">
-		    <div class="blog_left">
-			<h4><a href="#">Lorem ipsum dolor</a></h4>
-			<h5><i class="fa fa-calendar"></i>11.05.2017</h5>
-			<div class="card-image"><img src="img/44.jpg" width="100%"></div>
-			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
-			<h3><a href="#">Read More</a></h3>
-		  </div>
-		   </div>
-		  </div>
-          <div class="col-sm-12">
-		   <div class="paginate clearfix">
-			<a class="tag_page" href="#">1</a>
-			<a href="#">2</a>
-			<a href="#">3</a>
-			<a href="#">4</a>
-			<a href="#">Next &gt;</a>
-			<a href="#">Last &gt;&gt;</a>
-		   </div>
-		  </div>		  		 
-		 </div>
-		 
-		<div class="tab-content clearfix">
-		  <div id="home1" class="tab-pane fade clearfix active in">
-			 <div class="click clearfix">
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">1</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Torquent Per Conubia Nostra, Per Inceptos </a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">2</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Torquent Per Conubia Nostra, Per Inceptos</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">3</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Torquent Per Conubia Nostra, Per Inceptos</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">4</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Torquent Per Conubia Nostra, Per Inceptos</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">5</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Torquent Per Conubia Nostra, Per Inceptos</a></p>
-				 </div>
-				</div> 
-				</div>
-			 </div>
-		  </div>
-		  <div id="menu3" class="tab-pane fade clearfix">
-			 <div class="click clearfix">
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">1</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Fusce nec tellus sed augue semper porta</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">2</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Fusce nec tellus sed augue semper porta</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">3</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Fusce nec tellus sed augue semper porta</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">4</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Fusce nec tellus sed augue semper porta</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">5</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Fusce nec tellus sed augue semper porta</a></p>
-				 </div>
-				</div> 
-				</div>
-			 </div>
-		  </div>
-		  <div id="menu4" class="tab-pane fade clearfix">
-			 <div class="click clearfix">
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">1</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Ligula in libero Sed dignissim lacinia nunc.</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">2</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Ligula in libero Sed dignissim lacinia nunc.</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">3</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Ligula in libero Sed dignissim lacinia nunc.</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text border_bottom_1">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">4</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Ligula in libero Sed dignissim lacinia nunc.</a></p>
-				 </div>
-				</div> 
-				</div>
-				<div class="clearfix clear_text">
-				<div class="col-sm-3">
-				 <div class="tab_1_inner border_right_1">
-				   <p class="text-center">5</p>
-				 </div>
-				</div> 
-				<div class="col-sm-9 tab_1_inner_1_main">
-				  <div class="tab_1_inner_1 ">
-				   <p><a href="#">Ligula in libero Sed dignissim lacinia nunc.</a></p>
-				 </div>
-				</div> 
-				</div>
-			 </div>
+		  <div class="about_inner_1" id="textBox">
+			<h2>Dictionary</h2>
+			<ul style="list-style-type: disc; font-size: 20px;">
+			  <li>Uses pre-computed sentiment scores for each word​​</li>
+			  <li>Very simple to implement​​</li>
+			  <li>Only analyzes at word level, misses nuance​​</li>
+			</ul>
 		  </div>
 		</div>
-		   </div>
-		   <div class="blog_right">
-			 <div class="card-image">
-			  <img src="img/21.jpg" width="100%">			 </div>
-			 <h5><a href="#">LITORA TORQENT PER CONUBIA NOSTRA</a></h5>
-		   </div>
-			<div class="blog_right_inner_4 clearfix">
-			  <h4> Newsletter Subscriber</h4>
-			  <p> Mauris massa vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
-			  <input class="form-control" placeholder="Email" type="text">
-			  <span><a href="#">Sign Up</a></span>
-			  <h5>We take care about privacy privacy!</h5>
-			</div>
-		 </div>
+		<div class="col-sm-5 pull">
 		</div>
-	   </div>
 	  </div>
-	 </section>
+	<div class="col-sm-8"></div>
+   </div>
+  </div>
+ </div>
+</section>
+ <section id="team" class="background_1 team_page">
+	 <div class="container">
+	  <div class="row">
+	   <div class="research clearfix">
+	 <h1 class="text-center">Audio Analysis Team</h1>
+	
+
+		<div class="col-sm-3">
+		 <div class="team_1 clearfix">
+		   <div class="grid clearfix">
+						<figure class="effect-jazz">
+							<img src="img/10.jpg" alt="img25">
+							<figcaption>
+								<h2>Audio Analysis</h2>
+			  </figure>
+		  </div>
+		 </div>
+		 <div class="team_inner clearfix text-center">
+		 <h3><a href="#">Yi-Fang Cheng</a></h3>
+		 <h4>Researcher</h4>
+		  <p class="para_2">Worked in Vader Methodology </p>
+		  <ul>
+			  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	      </ul>
+		</div>
+		</div>
+		<div class="col-sm-3">
+      <div class="team_1 clearfix">
+        <div class="grid clearfix">
+             <figure class="effect-jazz">
+               <img src="img/9.png">
+               <figcaption>
+                 <h2>Audio Analysis</h2>
+               </figcaption>			
+         </figure>
+       </div>
+      </div>
+      <div class="team_inner clearfix text-center">
+      <h3><a href="#">Jax Mader</a></h3>
+      <h4>Researcher</h4>
+       <p class="para_2"> Worked on TextBlob Methodology </p>
+       <ul>
+         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+         </ul>
+     </div>
+     </div>
+	   </div>
+	   
+	  </div>
+	 </div>
+    </section>
+	
+ 
+ 
  <section id="footer_bottom">
  <div class="container">
     <div class="col-sm-12">
 	 <div class="footer_bottom">
-		<p> © 2024 CSPAN Rhetoric. All Rights Reserved</a></p>	 
-	</div>
+	   <p> © 2024 CSPAN Rhetoric. All Rights Reserved</a></p>
+	 </div>
 	</div>
   </div>
  

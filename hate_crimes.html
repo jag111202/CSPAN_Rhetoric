@@ -11,10 +11,14 @@
 	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
      <script src="js/jquery-2.1.1.min.js"></script>
 	 <script src="js/bootstrap.min.js"></script>
-
-    
-  </head>
-  
+	 <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Violin Plot with D3.js</title>
+  <!-- Load D3.js and Plotly from CDN -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</style>
+</head>
 <body>
 	<section id="header">
 		<nav class="navbar navbar-default navbar-fixed-top nav_home">
@@ -37,10 +41,8 @@
 						<li><a class="color_1" href="index.html">Home</a></li>	
 						<li><a class="color_1" href="sentiment_analysis.html">Sentiment Analysis</a></li>						
 						<li><a class=" color_1" href="audio_analysis.html">Audio Analysis</a></li>
-						<li><a class=" color_1" href="hate_crimes.html">Hate Crimes</a></li>					
-						<li><a class="color_1" href="gallery.html">Gallery</a></li>					
+						<li><a class=" color_1" href="hate_crimes.html">Hate Speech Analysis</a></li>								
 						<li><a class=" color_1" href="team.html">Team</a></li>
-						<li><a class="color_1" href="contact.html">Contacts</a></li>				
 					</ul>				
 				</div>			
 			<!-- Collect the nav links, forms, and other content for toggling -->			
@@ -48,17 +50,17 @@
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
-</section>	
- <section id="details_main">
+	</section>
+	
+ <section id="center_about_Hate">
    <div class="container">
 	    <div class="row">
-		  <div class="details_main_1 clearfix">
+		  <div class=" center_about_Hate clearfix">
 			<div class="col-sm-7">
 			 <div class="center_about_left">
-			   <div class="details_main_2 clearfix">
+			   <div class="center_about_left_inner_1 clearfix">
 			     <hr class="hr_2">
-				 <h1>Popular Details</h1>
-				 <p>DETAILS</p>
+				 <h1>Hate Speech Analysis</h1>
 			   </div>
 			 </div>
 			</div>
@@ -66,184 +68,288 @@
 		  </div>
 		</div>
 	  </div>  	  
-</section>
-	
-<section id="details">
+	</section>
+<section id="about">
  <div class="container">
   <div class="row">
-   <div class="col-sm-12 space_all">
-    <div class="col-sm-8">
-     <div class="details_1">
-     <p><a href="#"><img src="img/46.jpg" width="100%"></a></p>
-    </div>
-    </div>
-    <div class="col-sm-4">
-	 <div class="details_14">
-	  <p><img src="img/47.jpg" width="100%"></p>
-	 </div>
-	 <div class="details_15">
-	  <p><img src="img/48.jpg" width="100%"></p>
-	 </div>
-	</div>
-   </div>
-   <div class="col-sm-12 space_all">
-    <div class="details_3 clearfix">
-     <div class="details_2">
-     <ul> 
-         <li>Category:</li>
-         <li><a href="#">Consectetur,</a></li>
-         <li><a href="#">Vestibulum</a></li>
-     </ul>
-    </div>
-     <div class="blog_9">
-      <ul> 
-          <li class="well_22"><a href="#">ARCU AND EGET ELIT</a></li>
-      </ul>
-     </div>
-     <div class="blog_10">
-      <ul> 
-          <li class="well_24"><i class="fa fa-calendar"></i>March 5, 2017</li>
-          <li class="well_25"><i class="fa fa-edit"></i><a href="blog details.html">LaciNIA</a></li>
-          <li class="well_26"><i>Tags:</i><a href="blog details.html">Integer</a> <a href="blog details.html">Vestibulum</a> <a href="blog details.html">Torquent</a></li>  
-      </ul>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio.Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.torquent per conubia nostra, per inceptos . Curabitursodales ligula in libero.</p>
-      
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio.Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.torquent per conubia nostra, per inceptos . Curabitursodales ligula in libero. Sed dignissim lacinia nunc.at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.torquent per conubia nostra, per inceptos . Curabitursodales ligula in libero.</p>
-     </div>
-    </div>
+   <div class="about_1">
+    <h2>Methodology</h2>
+	<p>It is easy for one to see that rhetoric has become more heated, but trying to observe such changes requires a clear definition of “sentiment.” Unfortunately, the number of definitions for this concept approximates the number of tools, so it is difficult to say which definition is best.​
+		"Vader" and "TextBlob" may sound like movie titles, but the way they help analyze sentiment is very real. Comparing these methods to traditional dictionary-based approaches gives the sentiment analysis sub-team a clearer picture of polarization on Capitol Hill.​​</p>
    </div>
    <div class="col-sm-12 space_all">
     <div class="col-sm-4 space_all">
-     <div class="details_4">
-      <h4>SAGITTIS (2)</h4>
-     </div>
-     <div class="col-sm-12 space_all">
-      <div class="col-sm-3 space_all">
-       <div class="details_4">
-        <p><a href="#"><img src="img/49.jpg" width="100%"></a></p>
-       </div>
-      </div>
-      <div class="col-sm-9 space_all">
-       <div class="details_5">
-        <h4>FUSCE</h4>
-        <p><i class="fa fa-calendar"></i>July 2, 2017</p>
-        <h5>Torquent</h5>
-        <h6><i class="fa fa-reply"></i><a href="#">Massa</a></h6>
-       </div>
-      </div>
-     </div>
+        <div class="about_3">
+            <ul>
+            </ul>
+        </div>
     </div>
-    <div class="col-sm-4">
-	 <div class="details_12">
-	  <p>Nulla.torquent per conubia nostra, per inceptos . Curabitursodales ligula in libero. 
-		  Sed dignissim lacinia nunc.at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. 
-		  Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.torquent per conubia nostra, per inceptos .
-		  Curabitursodales ligula in libero.</p>
-	 </div>
-	</div>
-    <div class="col-sm-4">
-	 <div class="details_12">
-	  <p>Nulla.torquent per conubia nostra, per inceptos . Curabitursodales ligula in libero. 
-		  Sed dignissim lacinia nunc.at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. 
-		  Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.torquent per conubia nostra, per inceptos .
-		  Curabitursodales ligula in libero.</p>
-	 </div>
-	</div>
-   </div>
+    <div class="col-sm-12 space_all">
+      <div class="col-sm-4 space_all">
+          <div class="about_3">
+              <ul>
+              </ul>
+          </div>
+      </div>
+      <div class="col-sm-12 pull clearfix space_all">
+          <div class="col-sm-7 pull space_all">
+              <div class="about_inner">
+                  <!-- Embed the plotly graph here -->
+                  <div id="plot"></div>
+              </div>
+              <div class="about_inner_1" id="textBox">
+                <h2>TextBlob</h2>
+                <ul style="list-style-type: disc; font-size: 20px;">
+                  <li>Uses NLP techniques to compute subjectivity and polarity</li>
+                  <li>Has use cases beyond sentiment</li>
+                  <li>Easy to use but slow</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-5 pull">
+        </div>
+    </div>
+</div>
+
+<script>
+  // Load data from CSV file
+  d3.csv("melted_data.csv").then(function(data) {
+    // Create the violin plot using Plotly and D3.js
+    var layout = {
+      title: "Violin Plot",
+      xaxis: {
+        title: "Analysis Type",
+        automargin: true, // Automatically adjust margin to fit labels
+      },
+      yaxis: {
+        title: "Value",
+        automargin: true, // Automatically adjust margin to fit labels
+      },
+      violinmode: "group",
+      width: 700, // Adjusted width
+      height: 480, // Adjusted height
+      margin: {
+        l: 80, // Left margin
+        r: 20, // Right margin
+        t: 80, // Top margin
+        b: 80, // Bottom margin
+      },
+    };
+
+    var config = { responsive: true };
+
+    var traces = [];
+    var variables = [...new Set(data.map(d => d.variable))];
+
+    variables.forEach(function(variable, index) {
+      var subset = data.filter(d => d.variable === variable);
+      var trace = {
+        type: "violin",
+        x: subset.map(d => d.variable),
+        y: subset.map(d => d.value),
+        legendgroup: variable,
+        scalegroup: variable,
+        name: variable,
+        side: "both",
+        line: { color: getColor(index, variables.length) },
+        fillcolor: getColor(index, variables.length),
+        hoveron: "points",
+        hoverinfo: "y+name",
+        box: { visible: true },
+        meanline: { visible: true },
+        scalemode: "count"
+      };
+      traces.push(trace);
+    });
+
+    Plotly.newPlot("plot", traces, layout, config);
+  }).catch(function(error) {
+    throw error;
+  });
+
+  // Function to get different colors
+  function getColor(index, total) {
+    var colorScale = d3.scaleSequential()
+      .domain([0, total])
+      .interpolator(d3.interpolateRainbow);
+    return colorScale(index);
+  }
+
+</script>
+</body>
+</html>
+
+<div class="col-sm-12 space_all">
+    <div class="col-sm-4 space_all">
+        <div class="about_3">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-12 pull clearfix space_all">
+        <div class="col-sm-7 pull space_all">
+            <div class="about_inner">
+                <!-- Embed the plotly graph here -->
+                <div id="plotly-graph"></div>
+            </div>
+            <div class="about_inner_1" id="textBox">
+                <h2>VADER</h2>
+                <ul style="list-style-type: disc; font-size: 20px;">
+                    <li>Analyze sentiment for social media​</li>
+                    <li>Handles slang and nuance well​</li>
+                    <li>Immediate deployment with efficient analysis​</li>
+                    <li>Not as suitable for politician speeches</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-5 pull">
+        </div>
+    </div>
+</div>
+
+<script>
+  // Data for the graph
+  var data = [
+    {
+      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
+      y: [0.72, 0.55, 0.87, 0.66],
+      type: 'bar',
+      name: 'Positive',
+      marker: {color: 'rgba(0, 159, 0, 0.25)', line: {color: 'rgba(0, 159, 0, 0.60)', width: 1.5}}
+    },
+    {
+      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
+      y: [0.07, 0.08, 0.05, 0.08],
+      type: 'bar',
+      name: 'Neutral',
+      marker: {color: 'rgba(0, 0, 0, 0.25)', line: {color: 'rgba(0, 0, 0, 0.60)', width: 1.5}}
+    },
+    {
+      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
+      y: [0.21, 0.38, 0.09, 0.27],
+      type: 'bar',
+      name: 'Negative',
+      marker: {color: 'rgba(159, 0, 0, 0.25)', line: {color: 'rgba(159, 0, 0, 0.60)', width: 1.5}}
+    }
+  ];
+
+  // Layout for the graph
+  var layout = {
+    xaxis: {title: 'President and Topic'},
+    yaxis: {title: 'Sentiment Percentage'},
+    barmode: 'stack'
+  };
+
+  // Create the plotly graph
+  Plotly.newPlot('plotly-graph', data, layout);
+</script>
+	  
    <div class="col-sm-12 space_all">
-    <div class="col-sm-6">
-	 <div class="details_6">
-     <h5>Lacinia Nunc</h5>
-     <p>Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa *</p>
-    </div>	   
-     <div class="details_8">
-	   <label for="comment">Name *</label>
-	   <input type="text" class="form-control" placeholder="">
-	  </div>
-     <div class="details_8">
-	   <label for="comment">Email *</label>
-	   <input type="text" class="form-control" placeholder="">
-	  </div>
-      <div class="details_8">
-	   <label for="comment">Website *</label>
-	   <input type="text" class="form-control" placeholder="">
-	  </div>
-	  <div class="details_7">
-	   <label for="comment">Comment</label>
-	   <textarea placeholder="" class="form-control"></textarea>
-	  </div>
-      <div class="details_9">
-       <p><a href="#">Post Comment</a></p>       
-	  </div>
-	</div> 
-	<div class="col-sm-6">
-	 <div class="details_13">
-	  <p><a href="#"><img src="img/50.jpg" width="100%"></a></p>
+    <div class="col-sm-4 space_all">
+	 <div class="about_3">
+	  <ul>
+	    
+	  </ul>
+	  
 	 </div>
-	</div>     
-   </div>
+	</div>
+	<div class="col-sm-12 pull clearfix space_all">
+		<div class="col-sm-7 pull space_all">
+		  <div class="about_inner">
+			<img src="img/40.jpg">
+		  </div>
+		  <div class="about_inner_1" id="textBox">
+			<h2>Dictionary</h2>
+			<ul style="list-style-type: disc; font-size: 20px;">
+			  <li>Uses pre-computed sentiment scores for each word​​</li>
+			  <li>Very simple to implement​​</li>
+			  <li>Only analyzes at word level, misses nuance​​</li>
+			</ul>
+		  </div>
+		</div>
+		<div class="col-sm-5 pull">
+		</div>
+	  </div>
+	<div class="col-sm-8"></div>
    </div>
   </div>
  </div>
 </section>
- 
- <section id="footer">
-  <div class="container">
-    <div class="row">
-	 <div class="footer clearfix">
-	  <div class="col-sm-6">
-	   <div class="footer_left">
-	     <h2><a href="index.html"><i class="fa fa-flask"></i>Scientific Zone</a></h2>
-		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Praesent libero Sed nisi Nulla quis sem at nibh<br> elementum imperdiet.</p>
-		 <p>Class aptent taciti sociosqu ad litora torquent per<br> conubia nostra, per inceptos himenaeos.<br> Curabitursodales ligula in libero!
-		 <br> Praesent libero Sed nisi Nulla quis sem at nibh<br> conubia nostra, per inceptos himenaeos.</p>
+ <section id="team" class="background_1 team_page">
+	 <div class="container">
+	  <div class="row">
+	   <div class="research clearfix">
+	 <h1 class="text-center">Sentiment Analysis Team</h1>
+	
+		<div class="col-sm-3">
+		 <div class="team_1 clearfix">
+		   <div class="grid clearfix">
+						<figure class="effect-jazz">
+							<img src="img/9.png">
+							<figcaption>
+								<h2>Hate Speech Analysis</h2>
+							</figcaption>			
+			  </figure>
+		  </div>
+		 </div>
+		 <div class="team_inner clearfix text-center">
+		 <h3><a href="#">Madison Ramos</a></h3>
+		 <h4>Researcher</h4>
+		  <p class="para_2">Worked on TextBlob Methodology </p>
+		  <ul>
+			  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	      </ul>
+		</div>
+		</div>
+		<div class="col-sm-3">
+		 <div class="team_1 clearfix">
+		   <div class="grid clearfix">
+						<figure class="effect-jazz">
+							<img src="img/10.jpg" alt="img25">
+							<figcaption>
+								<h2>Hate Speech Analysis</h2>
+			  </figure>
+		  </div>
+		 </div>
+		 <div class="team_inner clearfix text-center">
+		 <h3><a href="#">Jelani  C. Francis</a></h3>
+		 <h4>Researcher</h4>
+		  <p class="para_2">Worked in Vader Methodology</p>
+		  <ul>
+			  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	      </ul>
+		</div>
+		</div>
+		<div class="col-sm-3">
+		 <div class="team_1 clearfix">
+		   <div class="grid clearfix">
+						<figure class="effect-jazz">
+							<img src="img/11.jpg" alt="img25">
+							<figcaption>
+								<h2>Hate Speech Analysis</h2>
+			  </figure>
+		  </div>
+		 </div>
+		 <div class="team_inner clearfix text-center">
+		 <h3><a href="#">Angelina De La Torre</a></h3>
+		 <h4>Researcher</h4>
+		  <p class="para_2">Worked in Dictionary Method </p>
+		  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		</div>
+		</div>
 	   </div>
-	  </div>
-	  <div class="col-sm-3">
-	    <div class="footer_middle">
-		 <h2>Contact Us</h2>
-		 <h5>1500 Lorem Ipsum Street<br>
-Delhi, JK 46000</h5>
-         <h4><a href="#">info@gmail.com</a></h4>
-		 <h5>Tel: <a href="#">(300) 156-8870</a></h5>
-		 <h5>Fax: <a href="#">(300) 156-8871</a></h5>
-		 <div class="footer_middle_inner clearfix">
-		   <p>Email us</p>
-		   <p>More Scientific contacts</p>
-		   <p>Another Details</p>
-		 </div>
-		</div>
-	  </div>
-	  <div class="col-sm-3">
-	    <div class="footer_right">
-		   <h2>Follow us</h2>
-		   <div class="top_right">
-	   <p>
-	    <a class="tag_1" href="#"><i class="fa fa-facebook"></i></a>
-		<a class="tag_2" href="#"><i class="fa fa-twitter"></i></a>
-		<a class="tag_3" href="#"><i class="fa fa-google-plus"></i></a>
-		<a class="tag_4 marg_right" href="#"><i class="fa fa-linkedin"></i></a>	   </p>
-	  </div>
-	      <h2>Popular</h2>
-		  <div class="footer_middle_inner clearfix">
-		   <p><a href="index.html">Home</a></p>
-		   <p><a href="gallery.html">Gallery</a></p>
-		   <p><a href="about.html">About</a></p>
-		   <p><a href="contact.html">Contact</a></p>
-		   <p><a href="blog.html">Blogs</a></p>
-		 </div>
-		</div>
+	   
 	  </div>
 	 </div>
-	</div>
-  </div>
- </section>
+    </section>
+	
+ 
  
  <section id="footer_bottom">
  <div class="container">
     <div class="col-sm-12">
 	 <div class="footer_bottom">
-	   <p> © 2013 Your Website Name. All Rights Reserved | Design by <a href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+	   <p> © 2024 CSPAN Rhetoric. All Rights Reserved</a></p>
 	 </div>
 	</div>
   </div>
