@@ -74,7 +74,8 @@
   <div class="row">
    <div class="about_1">
     <h2>Methodology</h2>
-	<p>Vocal pitch, also known as the fundamental frequency (F0), has been found to reflect the emotional state and intensity of a speaker.​​</p>
+	<p>Whether analyzing a campaign rally or a congressional debate, the tone of a speech is sometimes as important as the speech itself. When vocal pitch rises, it often indicates an activated emotional state. The audio analysis team employs speech-to-text software, 
+    as well as audio processing tools, to analyze the vocal inflections and intensity of emotion in politicians. The goal is to explore US congressional rhetoric from a different perspective.​​</p>
    </div>
    <div class="col-sm-12 space_all">
     <div class="col-sm-4 space_all">
@@ -91,92 +92,24 @@
           </div>
       </div>
       <div class="col-sm-12 pull clearfix space_all">
-          <div class="col-sm-7 pull space_all">
-              <div class="about_inner">
-                  <!-- Embed the plotly graph here -->
-                  <div id="plot"></div>
-              </div>
-              <div class="about_inner_1" id="textBox">
-                <h2>TextBlob</h2>
-                <ul style="list-style-type: disc; font-size: 20px;">
-                  <li>Uses NLP techniques to compute subjectivity and polarity</li>
-                  <li>Has use cases beyond sentiment</li>
-                  <li>Easy to use but slow</li>
-                </ul>
-            </div>
+        <div class="col-sm-7 pull space_all">
+          <div class="about_inner">
+          <img src="img/norms.png">
+          </div>
+          <div class="about_inner_1" id="textBox">
+          <h2>Pitch</h2>
+          <ul style="list-style-type: disc; font-size: 20px;">
+            <li>Put description here​</li>
+          </ul>
+          </div>
         </div>
         <div class="col-sm-5 pull">
         </div>
-    </div>
-</div>
-
-<script>
-  // Load data from CSV file
-  d3.csv("melted_data.csv").then(function(data) {
-    // Create the violin plot using Plotly and D3.js
-    var layout = {
-      title: "Violin Plot",
-      xaxis: {
-        title: "Analysis Type",
-        automargin: true, // Automatically adjust margin to fit labels
-      },
-      yaxis: {
-        title: "Value",
-        automargin: true, // Automatically adjust margin to fit labels
-      },
-      violinmode: "group",
-      width: 700, // Adjusted width
-      height: 480, // Adjusted height
-      margin: {
-        l: 80, // Left margin
-        r: 20, // Right margin
-        t: 80, // Top margin
-        b: 80, // Bottom margin
-      },
-    };
-
-    var config = { responsive: true };
-
-    var traces = [];
-    var variables = [...new Set(data.map(d => d.variable))];
-
-    variables.forEach(function(variable, index) {
-      var subset = data.filter(d => d.variable === variable);
-      var trace = {
-        type: "violin",
-        x: subset.map(d => d.variable),
-        y: subset.map(d => d.value),
-        legendgroup: variable,
-        scalegroup: variable,
-        name: variable,
-        side: "both",
-        line: { color: getColor(index, variables.length) },
-        fillcolor: getColor(index, variables.length),
-        hoveron: "points",
-        hoverinfo: "y+name",
-        box: { visible: true },
-        meanline: { visible: true },
-        scalemode: "count"
-      };
-      traces.push(trace);
-    });
-
-    Plotly.newPlot("plot", traces, layout, config);
-  }).catch(function(error) {
-    throw error;
-  });
-
-  // Function to get different colors
-  function getColor(index, total) {
-    var colorScale = d3.scaleSequential()
-      .domain([0, total])
-      .interpolator(d3.interpolateRainbow);
-    return colorScale(index);
-  }
-
-</script>
-</body>
-</html>
+        </div>
+      <div class="col-sm-8"></div>
+       </div>
+      </div>
+     </div>
 
 <div class="col-sm-12 space_all">
     <div class="col-sm-4 space_all">
@@ -285,9 +218,9 @@
 		 <div class="team_1 clearfix">
 		   <div class="grid clearfix">
 						<figure class="effect-jazz">
-							<img src="img/10.jpg" alt="img25">
+							<img src="img/Yi-Fang.jpg" alt="img25">
 							<figcaption>
-								<h2>Audio Analysis</h2>
+						
 			  </figure>
 		  </div>
 		 </div>
