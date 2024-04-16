@@ -1,0 +1,7238 @@
+[
+  {
+    "word": ["trump"],
+    "count": [165]
+  },
+  {
+    "word": ["racism"],
+    "count": [104]
+  },
+  {
+    "word": ["counti"],
+    "count": [67]
+  },
+  {
+    "word": ["tweeter"],
+    "count": [41]
+  },
+  {
+    "word": ["donald"],
+    "count": [40]
+  },
+  {
+    "word": ["spike"],
+    "count": [39]
+  },
+  {
+    "word": ["day"],
+    "count": [35]
+  },
+  {
+    "word": ["fig"],
+    "count": [33]
+  },
+  {
+    "word": ["behavior"],
+    "count": [32]
+  },
+  {
+    "word": ["cultur"],
+    "count": [31]
+  },
+  {
+    "word": ["histori"],
+    "count": [29]
+  },
+  {
+    "word": ["search"],
+    "count": [28]
+  },
+  {
+    "word": ["countri"],
+    "count": [26]
+  },
+  {
+    "word": ["aa"],
+    "count": [26]
+  },
+  {
+    "word": ["#stopasianh"],
+    "count": [24]
+  },
+  {
+    "word": ["form"],
+    "count": [23]
+  },
+  {
+    "word": ["estim"],
+    "count": [23]
+  },
+  {
+    "word": ["address"],
+    "count": [23]
+  },
+  {
+    "word": ["movement"],
+    "count": [22]
+  },
+  {
+    "word": ["america"],
+    "count": [21]
+  },
+  {
+    "word": ["hashtag"],
+    "count": [20]
+  },
+  {
+    "word": ["trump-support"],
+    "count": [20]
+  },
+  {
+    "word": ["occur"],
+    "count": [19]
+  },
+  {
+    "word": ["clinton-support"],
+    "count": [19]
+  },
+  {
+    "word": ["posit"],
+    "count": [17]
+  },
+  {
+    "word": ["qualit"],
+    "count": [16]
+  },
+  {
+    "word": ["educ"],
+    "count": [16]
+  },
+  {
+    "word": ["even"],
+    "count": [16]
+  },
+  {
+    "word": ["made"],
+    "count": [16]
+  },
+  {
+    "word": ["coronavirus"],
+    "count": [16]
+  },
+  {
+    "word": ["code"],
+    "count": [16]
+  },
+  {
+    "word": ["note"],
+    "count": [16]
+  },
+  {
+    "word": ["although"],
+    "count": [15]
+  },
+  {
+    "word": ["mental"],
+    "count": [15]
+  },
+  {
+    "word": ["negat"],
+    "count": [15]
+  },
+  {
+    "word": ["limit"],
+    "count": [15]
+  },
+  {
+    "word": ["various"],
+    "count": [14]
+  },
+  {
+    "word": ["case"],
+    "count": [14]
+  },
+  {
+    "word": ["indic"],
+    "count": [14]
+  },
+  {
+    "word": ["accord"],
+    "count": [14]
+  },
+  {
+    "word": ["access"],
+    "count": [14]
+  },
+  {
+    "word": ["elect"],
+    "count": [14]
+  },
+  {
+    "word": ["descent"],
+    "count": [13]
+  },
+  {
+    "word": ["attack"],
+    "count": [13]
+  },
+  {
+    "word": ["prejudic"],
+    "count": [13]
+  },
+  {
+    "word": ["express"],
+    "count": [13]
+  },
+  {
+    "word": ["opinion"],
+    "count": [13]
+  },
+  {
+    "word": ["need"],
+    "count": [13]
+  },
+  {
+    "word": ["subsequ"],
+    "count": [13]
+  },
+  {
+    "word": ["frame"],
+    "count": [12]
+  },
+  {
+    "word": ["presidenti"],
+    "count": [12]
+  },
+  {
+    "word": ["develop"],
+    "count": [11]
+  },
+  {
+    "word": ["learn"],
+    "count": [11]
+  },
+  {
+    "word": ["attitud"],
+    "count": [11]
+  },
+  {
+    "word": ["right"],
+    "count": [11]
+  },
+  {
+    "word": ["area"],
+    "count": [11]
+  },
+  {
+    "word": ["law"],
+    "count": [11]
+  },
+  {
+    "word": ["speech"],
+    "count": [11]
+  },
+  {
+    "word": ["start"],
+    "count": [11]
+  },
+  {
+    "word": ["refer"],
+    "count": [11]
+  },
+  {
+    "word": ["four"],
+    "count": [11]
+  },
+  {
+    "word": ["black"],
+    "count": [10]
+  },
+  {
+    "word": ["root"],
+    "count": [10]
+  },
+  {
+    "word": ["flu"],
+    "count": [10]
+  },
+  {
+    "word": ["began"],
+    "count": [10]
+  },
+  {
+    "word": ["platform"],
+    "count": [10]
+  },
+  {
+    "word": ["theme"],
+    "count": [10]
+  },
+  {
+    "word": ["method"],
+    "count": [10]
+  },
+  {
+    "word": ["current"],
+    "count": [10]
+  },
+  {
+    "word": ["extract"],
+    "count": [10]
+  },
+  {
+    "word": ["queri"],
+    "count": [10]
+  },
+  {
+    "word": ["googl"],
+    "count": [10]
+  },
+  {
+    "word": ["human"],
+    "count": [9]
+  },
+  {
+    "word": ["color"],
+    "count": [9]
+  },
+  {
+    "word": ["type"],
+    "count": [9]
+  },
+  {
+    "word": ["creat"],
+    "count": [9]
+  },
+  {
+    "word": ["resourc"],
+    "count": [9]
+  },
+  {
+    "word": ["control"],
+    "count": [9]
+  },
+  {
+    "word": ["emphas"],
+    "count": [9]
+  },
+  {
+    "word": ["kung"],
+    "count": [9]
+  },
+  {
+    "word": ["found"],
+    "count": [9]
+  },
+  {
+    "word": ["strategi"],
+    "count": [9]
+  },
+  {
+    "word": ["get"],
+    "count": [9]
+  },
+  {
+    "word": ["rate"],
+    "count": [9]
+  },
+  {
+    "word": ["onlin"],
+    "count": [9]
+  },
+  {
+    "word": ["divers"],
+    "count": [9]
+  },
+  {
+    "word": ["aim"],
+    "count": [8]
+  },
+  {
+    "word": ["conduct"],
+    "count": [8]
+  },
+  {
+    "word": ["name"],
+    "count": [8]
+  },
+  {
+    "word": ["cite"],
+    "count": [8]
+  },
+  {
+    "word": ["make"],
+    "count": [8]
+  },
+  {
+    "word": ["structur"],
+    "count": [8]
+  },
+  {
+    "word": ["employ"],
+    "count": [8]
+  },
+  {
+    "word": ["blame"],
+    "count": [8]
+  },
+  {
+    "word": ["white"],
+    "count": [8]
+  },
+  {
+    "word": ["previous"],
+    "count": [8]
+  },
+  {
+    "word": ["sourc"],
+    "count": [8]
+  },
+  {
+    "word": ["process"],
+    "count": [8]
+  },
+  {
+    "word": ["handl"],
+    "count": [8]
+  },
+  {
+    "word": ["futur"],
+    "count": [8]
+  },
+  {
+    "word": ["analyz"],
+    "count": [8]
+  },
+  {
+    "word": ["team"],
+    "count": [8]
+  },
+  {
+    "word": ["surg"],
+    "count": [8]
+  },
+  {
+    "word": ["recogn"],
+    "count": [8]
+  },
+  {
+    "word": ["encourag"],
+    "count": [8]
+  },
+  {
+    "word": ["shun"],
+    "count": [8]
+  },
+  {
+    "word": ["whether"],
+    "count": [8]
+  },
+  {
+    "word": ["analys"],
+    "count": [8]
+  },
+  {
+    "word": ["long"],
+    "count": [7]
+  },
+  {
+    "word": ["defin"],
+    "count": [7]
+  },
+  {
+    "word": ["societi"],
+    "count": [7]
+  },
+  {
+    "word": ["histor"],
+    "count": [7]
+  },
+  {
+    "word": ["moreov"],
+    "count": [7]
+  },
+  {
+    "word": ["line"],
+    "count": [7]
+  },
+  {
+    "word": ["third"],
+    "count": [7]
+  },
+  {
+    "word": ["voic"],
+    "count": [7]
+  },
+  {
+    "word": ["govern"],
+    "count": [7]
+  },
+  {
+    "word": ["system"],
+    "count": [7]
+  },
+  {
+    "word": ["motiv"],
+    "count": [7]
+  },
+  {
+    "word": ["messag"],
+    "count": [7]
+  },
+  {
+    "word": ["place"],
+    "count": [7]
+  },
+  {
+    "word": ["global"],
+    "count": [7]
+  },
+  {
+    "word": ["wuhan"],
+    "count": [7]
+  },
+  {
+    "word": ["go"],
+    "count": [7]
+  },
+  {
+    "word": ["million"],
+    "count": [7]
+  },
+  {
+    "word": ["contain"],
+    "count": [7]
+  },
+  {
+    "word": ["step"],
+    "count": [7]
+  },
+  {
+    "word": ["help"],
+    "count": [7]
+  },
+  {
+    "word": ["bias"],
+    "count": [7]
+  },
+  {
+    "word": ["job"],
+    "count": [7]
+  },
+  {
+    "word": ["possibl"],
+    "count": [7]
+  },
+  {
+    "word": ["appreci"],
+    "count": [7]
+  },
+  {
+    "word": ["covid"],
+    "count": [7]
+  },
+  {
+    "word": ["community’"],
+    "count": [7]
+  },
+  {
+    "word": ["visibl"],
+    "count": [7]
+  },
+  {
+    "word": ["avail"],
+    "count": [7]
+  },
+  {
+    "word": ["inclus"],
+    "count": [7]
+  },
+  {
+    "word": ["solidar"],
+    "count": [7]
+  },
+  {
+    "word": ["suggest"],
+    "count": [7]
+  },
+  {
+    "word": ["clinton"],
+    "count": [7]
+  },
+  {
+    "word": ["section"],
+    "count": [7]
+  },
+  {
+    "word": ["expect"],
+    "count": [7]
+  },
+  {
+    "word": ["resid"],
+    "count": [7]
+  },
+  {
+    "word": ["young"],
+    "count": [6]
+  },
+  {
+    "word": ["target"],
+    "count": [6]
+  },
+  {
+    "word": ["life"],
+    "count": [6]
+  },
+  {
+    "word": ["statement"],
+    "count": [6]
+  },
+  {
+    "word": ["superior"],
+    "count": [6]
+  },
+  {
+    "word": ["practic"],
+    "count": [6]
+  },
+  {
+    "word": ["exist"],
+    "count": [6]
+  },
+  {
+    "word": ["must"],
+    "count": [6]
+  },
+  {
+    "word": ["equal"],
+    "count": [6]
+  },
+  {
+    "word": ["accept"],
+    "count": [6]
+  },
+  {
+    "word": ["outbreak"],
+    "count": [6]
+  },
+  {
+    "word": ["tragedi"],
+    "count": [6]
+  },
+  {
+    "word": ["subject"],
+    "count": [6]
+  },
+  {
+    "word": ["classifi"],
+    "count": [6]
+  },
+  {
+    "word": ["carri"],
+    "count": [6]
+  },
+  {
+    "word": ["citizen"],
+    "count": [6]
+  },
+  {
+    "word": ["#covid19"],
+    "count": [6]
+  },
+  {
+    "word": ["phrase"],
+    "count": [6]
+  },
+  {
+    "word": ["popular"],
+    "count": [6]
+  },
+  {
+    "word": ["fact"],
+    "count": [6]
+  },
+  {
+    "word": ["variabl"],
+    "count": [6]
+  },
+  {
+    "word": ["field"],
+    "count": [6]
+  },
+  {
+    "word": ["campaign"],
+    "count": [6]
+  },
+  {
+    "word": ["muqsith"],
+    "count": [6]
+  },
+  {
+    "word": ["promot"],
+    "count": [6]
+  },
+  {
+    "word": ["asian-american"],
+    "count": [6]
+  },
+  {
+    "word": ["stress"],
+    "count": [6]
+  },
+  {
+    "word": ["lack"],
+    "count": [6]
+  },
+  {
+    "word": ["declar"],
+    "count": [6]
+  },
+  {
+    "word": ["away"],
+    "count": [6]
+  },
+  {
+    "word": ["percent"],
+    "count": [6]
+  },
+  {
+    "word": ["actor"],
+    "count": [6]
+  },
+  {
+    "word": ["januari"],
+    "count": [6]
+  },
+  {
+    "word": ["good"],
+    "count": [6]
+  },
+  {
+    "word": ["multipl"],
+    "count": [6]
+  },
+  {
+    "word": ["reveal"],
+    "count": [6]
+  },
+  {
+    "word": ["intervent"],
+    "count": [6]
+  },
+  {
+    "word": ["safeti"],
+    "count": [6]
+  },
+  {
+    "word": ["challeng"],
+    "count": [6]
+  },
+  {
+    "word": ["adult"],
+    "count": [6]
+  },
+  {
+    "word": ["within"],
+    "count": [6]
+  },
+  {
+    "word": ["mention"],
+    "count": [6]
+  },
+  {
+    "word": ["under"],
+    "count": [6]
+  },
+  {
+    "word": ["larg"],
+    "count": [6]
+  },
+  {
+    "word": ["close"],
+    "count": [6]
+  },
+  {
+    "word": ["mechan"],
+    "count": [6]
+  },
+  {
+    "word": ["panel"],
+    "count": [6]
+  },
+  {
+    "word": ["rang"],
+    "count": [5]
+  },
+  {
+    "word": ["threaten"],
+    "count": [5]
+  },
+  {
+    "word": ["widespread"],
+    "count": [5]
+  },
+  {
+    "word": ["factor"],
+    "count": [5]
+  },
+  {
+    "word": ["leadership"],
+    "count": [5]
+  },
+  {
+    "word": ["skin"],
+    "count": [5]
+  },
+  {
+    "word": ["feel"],
+    "count": [5]
+  },
+  {
+    "word": ["belief"],
+    "count": [5]
+  },
+  {
+    "word": ["degre"],
+    "count": [5]
+  },
+  {
+    "word": ["becom"],
+    "count": [5]
+  },
+  {
+    "word": ["deem"],
+    "count": [5]
+  },
+  {
+    "word": ["materi"],
+    "count": [5]
+  },
+  {
+    "word": ["therefor"],
+    "count": [5]
+  },
+  {
+    "word": ["former"],
+    "count": [5]
+  },
+  {
+    "word": ["crucial"],
+    "count": [5]
+  },
+  {
+    "word": ["anglo-saxon"],
+    "count": [5]
+  },
+  {
+    "word": ["record"],
+    "count": [5]
+  },
+  {
+    "word": ["women"],
+    "count": [5]
+  },
+  {
+    "word": ["certain"],
+    "count": [5]
+  },
+  {
+    "word": ["serv"],
+    "count": [5]
+  },
+  {
+    "word": ["purpos"],
+    "count": [5]
+  },
+  {
+    "word": ["percept"],
+    "count": [5]
+  },
+  {
+    "word": ["debat"],
+    "count": [5]
+  },
+  {
+    "word": ["communic"],
+    "count": [5]
+  },
+  {
+    "word": ["complet"],
+    "count": [5]
+  },
+  {
+    "word": ["done"],
+    "count": [5]
+  },
+  {
+    "word": ["paper"],
+    "count": [5]
+  },
+  {
+    "word": ["numer"],
+    "count": [5]
+  },
+  {
+    "word": ["scientif"],
+    "count": [5]
+  },
+  {
+    "word": ["crisi"],
+    "count": [5]
+  },
+  {
+    "word": ["california"],
+    "count": [5]
+  },
+  {
+    "word": ["respond"],
+    "count": [5]
+  },
+  {
+    "word": ["manag"],
+    "count": [5]
+  },
+  {
+    "word": ["emot"],
+    "count": [5]
+  },
+  {
+    "word": ["school"],
+    "count": [5]
+  },
+  {
+    "word": ["begin"],
+    "count": [5]
+  },
+  {
+    "word": ["lockdown"],
+    "count": [5]
+  },
+  {
+    "word": ["hand"],
+    "count": [5]
+  },
+  {
+    "word": ["dramat"],
+    "count": [5]
+  },
+  {
+    "word": ["rais"],
+    "count": [5]
+  },
+  {
+    "word": ["model"],
+    "count": [5]
+  },
+  {
+    "word": ["empir"],
+    "count": [5]
+  },
+  {
+    "word": ["screen"],
+    "count": [5]
+  },
+  {
+    "word": ["feder"],
+    "count": [5]
+  },
+  {
+    "word": ["societ"],
+    "count": [5]
+  },
+  {
+    "word": ["uniqu"],
+    "count": [5]
+  },
+  {
+    "word": ["captur"],
+    "count": [5]
+  },
+  {
+    "word": ["program"],
+    "count": [5]
+  },
+  {
+    "word": ["api"],
+    "count": [5]
+  },
+  {
+    "word": ["prior"],
+    "count": [5]
+  },
+  {
+    "word": ["ensur"],
+    "count": [5]
+  },
+  {
+    "word": ["anti-aapi"],
+    "count": [5]
+  },
+  {
+    "word": ["acknowledg"],
+    "count": [5]
+  },
+  {
+    "word": ["statist"],
+    "count": [5]
+  },
+  {
+    "word": ["art"],
+    "count": [5]
+  },
+  {
+    "word": ["confront"],
+    "count": [5]
+  },
+  {
+    "word": ["set"],
+    "count": [5]
+  },
+  {
+    "word": ["equiti"],
+    "count": [5]
+  },
+  {
+    "word": ["approxim"],
+    "count": [5]
+  },
+  {
+    "word": ["averag"],
+    "count": [5]
+  },
+  {
+    "word": ["later"],
+    "count": [5]
+  },
+  {
+    "word": ["separ"],
+    "count": [5]
+  },
+  {
+    "word": ["trump-"],
+    "count": [5]
+  },
+  {
+    "word": ["fix"],
+    "count": [5]
+  },
+  {
+    "word": ["abus"],
+    "count": [4]
+  },
+  {
+    "word": ["almost"],
+    "count": [4]
+  },
+  {
+    "word": ["behind"],
+    "count": [4]
+  },
+  {
+    "word": ["come"],
+    "count": [4]
+  },
+  {
+    "word": ["prompt"],
+    "count": [4]
+  },
+  {
+    "word": ["definit"],
+    "count": [4]
+  },
+  {
+    "word": ["everi"],
+    "count": [4]
+  },
+  {
+    "word": ["hierarchi"],
+    "count": [4]
+  },
+  {
+    "word": ["along"],
+    "count": [4]
+  },
+  {
+    "word": ["exclus"],
+    "count": [4]
+  },
+  {
+    "word": ["depend"],
+    "count": [4]
+  },
+  {
+    "word": ["three"],
+    "count": [4]
+  },
+  {
+    "word": ["institution"],
+    "count": [4]
+  },
+  {
+    "word": ["thus"],
+    "count": [4]
+  },
+  {
+    "word": ["condit"],
+    "count": [4]
+  },
+  {
+    "word": ["hous"],
+    "count": [4]
+  },
+  {
+    "word": ["vote"],
+    "count": [4]
+  },
+  {
+    "word": ["represent"],
+    "count": [4]
+  },
+  {
+    "word": ["last"],
+    "count": [4]
+  },
+  {
+    "word": ["rhetor"],
+    "count": [4]
+  },
+  {
+    "word": ["indirect"],
+    "count": [4]
+  },
+  {
+    "word": ["victori"],
+    "count": [4]
+  },
+  {
+    "word": ["brought"],
+    "count": [4]
+  },
+  {
+    "word": ["bring"],
+    "count": [4]
+  },
+  {
+    "word": ["reason"],
+    "count": [4]
+  },
+  {
+    "word": ["month"],
+    "count": [4]
+  },
+  {
+    "word": ["death"],
+    "count": [4]
+  },
+  {
+    "word": ["murder"],
+    "count": [4]
+  },
+  {
+    "word": ["attribut"],
+    "count": [4]
+  },
+  {
+    "word": ["varieti"],
+    "count": [4]
+  },
+  {
+    "word": ["gather"],
+    "count": [4]
+  },
+  {
+    "word": ["commit"],
+    "count": [4]
+  },
+  {
+    "word": ["display"],
+    "count": [4]
+  },
+  {
+    "word": ["websit"],
+    "count": [4]
+  },
+  {
+    "word": ["wang"],
+    "count": [4]
+  },
+  {
+    "word": ["radio"],
+    "count": [4]
+  },
+  {
+    "word": ["newspap"],
+    "count": [4]
+  },
+  {
+    "word": ["common"],
+    "count": [4]
+  },
+  {
+    "word": ["combin"],
+    "count": [4]
+  },
+  {
+    "word": ["appli"],
+    "count": [4]
+  },
+  {
+    "word": ["question"],
+    "count": [4]
+  },
+  {
+    "word": ["accur"],
+    "count": [4]
+  },
+  {
+    "word": ["top"],
+    "count": [4]
+  },
+  {
+    "word": ["situat"],
+    "count": [4]
+  },
+  {
+    "word": ["threat"],
+    "count": [4]
+  },
+  {
+    "word": ["tool"],
+    "count": [4]
+  },
+  {
+    "word": ["obtain"],
+    "count": [4]
+  },
+  {
+    "word": ["calcul"],
+    "count": [4]
+  },
+  {
+    "word": ["demonstr"],
+    "count": [4]
+  },
+  {
+    "word": ["thought"],
+    "count": [4]
+  },
+  {
+    "word": ["pay"],
+    "count": [4]
+  },
+  {
+    "word": ["long-term"],
+    "count": [4]
+  },
+  {
+    "word": ["food"],
+    "count": [4]
+  },
+  {
+    "word": ["though"],
+    "count": [4]
+  },
+  {
+    "word": ["stand"],
+    "count": [4]
+  },
+  {
+    "word": ["difficult"],
+    "count": [4]
+  },
+  {
+    "word": ["republican"],
+    "count": [4]
+  },
+  {
+    "word": ["virginia"],
+    "count": [4]
+  },
+  {
+    "word": ["kind"],
+    "count": [4]
+  },
+  {
+    "word": ["now"],
+    "count": [4]
+  },
+  {
+    "word": ["chinatown"],
+    "count": [4]
+  },
+  {
+    "word": ["unemploy"],
+    "count": [4]
+  },
+  {
+    "word": ["april"],
+    "count": [4]
+  },
+  {
+    "word": ["versus"],
+    "count": [4]
+  },
+  {
+    "word": ["#chinesevirus"],
+    "count": [4]
+  },
+  {
+    "word": ["coincid"],
+    "count": [4]
+  },
+  {
+    "word": ["end"],
+    "count": [4]
+  },
+  {
+    "word": ["consequ"],
+    "count": [4]
+  },
+  {
+    "word": ["evidence-bas"],
+    "count": [4]
+  },
+  {
+    "word": ["essenti"],
+    "count": [4]
+  },
+  {
+    "word": ["popul"],
+    "count": [4]
+  },
+  {
+    "word": ["themat"],
+    "count": [4]
+  },
+  {
+    "word": ["half"],
+    "count": [4]
+  },
+  {
+    "word": ["export"],
+    "count": [4]
+  },
+  {
+    "word": ["codebook"],
+    "count": [4]
+  },
+  {
+    "word": ["reflect"],
+    "count": [4]
+  },
+  {
+    "word": ["older"],
+    "count": [4]
+  },
+  {
+    "word": ["stigma"],
+    "count": [4]
+  },
+  {
+    "word": ["barrier"],
+    "count": [4]
+  },
+  {
+    "word": ["compet"],
+    "count": [4]
+  },
+  {
+    "word": ["b"],
+    "count": [4]
+  },
+  {
+    "word": ["advoc"],
+    "count": [4]
+  },
+  {
+    "word": ["celebr"],
+    "count": [4]
+  },
+  {
+    "word": ["confer"],
+    "count": [4]
+  },
+  {
+    "word": ["heighten"],
+    "count": [4]
+  },
+  {
+    "word": ["difference-in-differ"],
+    "count": [4]
+  },
+  {
+    "word": ["event-studi"],
+    "count": [4]
+  },
+  {
+    "word": ["high-profil"],
+    "count": [4]
+  },
+  {
+    "word": ["urban"],
+    "count": [4]
+  },
+  {
+    "word": ["name-cal"],
+    "count": [4]
+  },
+  {
+    "word": ["refus"],
+    "count": [4]
+  },
+  {
+    "word": ["plot"],
+    "count": [4]
+  },
+  {
+    "word": ["februari"],
+    "count": [4]
+  },
+  {
+    "word": ["press"],
+    "count": [4]
+  },
+  {
+    "word": ["larger"],
+    "count": [4]
+  },
+  {
+    "word": ["exposur"],
+    "count": [4]
+  },
+  {
+    "word": ["outlet"],
+    "count": [4]
+  },
+  {
+    "word": ["children"],
+    "count": [3]
+  },
+  {
+    "word": ["worri"],
+    "count": [3]
+  },
+  {
+    "word": ["becam"],
+    "count": [3]
+  },
+  {
+    "word": ["problem"],
+    "count": [3]
+  },
+  {
+    "word": ["gender"],
+    "count": [3]
+  },
+  {
+    "word": ["consist"],
+    "count": [3]
+  },
+  {
+    "word": ["religion"],
+    "count": [3]
+  },
+  {
+    "word": ["know"],
+    "count": [3]
+  },
+  {
+    "word": ["complement"],
+    "count": [3]
+  },
+  {
+    "word": ["tend"],
+    "count": [3]
+  },
+  {
+    "word": ["reject"],
+    "count": [3]
+  },
+  {
+    "word": ["moral"],
+    "count": [3]
+  },
+  {
+    "word": ["technolog"],
+    "count": [3]
+  },
+  {
+    "word": ["favor"],
+    "count": [3]
+  },
+  {
+    "word": ["entertain"],
+    "count": [3]
+  },
+  {
+    "word": ["inferior"],
+    "count": [3]
+  },
+  {
+    "word": ["domin"],
+    "count": [3]
+  },
+  {
+    "word": ["think"],
+    "count": [3]
+  },
+  {
+    "word": ["wide"],
+    "count": [3]
+  },
+  {
+    "word": ["determin"],
+    "count": [3]
+  },
+  {
+    "word": ["lower"],
+    "count": [3]
+  },
+  {
+    "word": ["judg"],
+    "count": [3]
+  },
+  {
+    "word": ["mediat"],
+    "count": [3]
+  },
+  {
+    "word": ["legisl"],
+    "count": [3]
+  },
+  {
+    "word": ["institut"],
+    "count": [3]
+  },
+  {
+    "word": ["tradit"],
+    "count": [3]
+  },
+  {
+    "word": ["excel"],
+    "count": [3]
+  },
+  {
+    "word": ["gain"],
+    "count": [3]
+  },
+  {
+    "word": ["past"],
+    "count": [3]
+  },
+  {
+    "word": ["intent"],
+    "count": [3]
+  },
+  {
+    "word": ["imag"],
+    "count": [3]
+  },
+  {
+    "word": ["disrespect"],
+    "count": [3]
+  },
+  {
+    "word": ["mistrust"],
+    "count": [3]
+  },
+  {
+    "word": ["taken"],
+    "count": [3]
+  },
+  {
+    "word": ["except"],
+    "count": [3]
+  },
+  {
+    "word": ["banda"],
+    "count": [3]
+  },
+  {
+    "word": ["apart"],
+    "count": [3]
+  },
+  {
+    "word": ["trigger"],
+    "count": [3]
+  },
+  {
+    "word": ["ralli"],
+    "count": [3]
+  },
+  {
+    "word": ["dissemin"],
+    "count": [3]
+  },
+  {
+    "word": ["advanc"],
+    "count": [3]
+  },
+  {
+    "word": ["fourth"],
+    "count": [3]
+  },
+  {
+    "word": ["protest"],
+    "count": [3]
+  },
+  {
+    "word": ["put"],
+    "count": [3]
+  },
+  {
+    "word": ["earli"],
+    "count": [3]
+  },
+  {
+    "word": ["least"],
+    "count": [3]
+  },
+  {
+    "word": ["eight"],
+    "count": [3]
+  },
+  {
+    "word": ["atlanta"],
+    "count": [3]
+  },
+  {
+    "word": ["man"],
+    "count": [3]
+  },
+  {
+    "word": ["angel"],
+    "count": [3]
+  },
+  {
+    "word": ["depart"],
+    "count": [3]
+  },
+  {
+    "word": ["quot"],
+    "count": [3]
+  },
+  {
+    "word": ["serious"],
+    "count": [3]
+  },
+  {
+    "word": ["latino"],
+    "count": [3]
+  },
+  {
+    "word": ["enforc"],
+    "count": [3]
+  },
+  {
+    "word": ["urg"],
+    "count": [3]
+  },
+  {
+    "word": ["network"],
+    "count": [3]
+  },
+  {
+    "word": ["locat"],
+    "count": [3]
+  },
+  {
+    "word": ["rufai"],
+    "count": [3]
+  },
+  {
+    "word": ["bunc"],
+    "count": [3]
+  },
+  {
+    "word": ["review"],
+    "count": [3]
+  },
+  {
+    "word": ["written"],
+    "count": [3]
+  },
+  {
+    "word": ["sent"],
+    "count": [3]
+  },
+  {
+    "word": ["medium"],
+    "count": [3]
+  },
+  {
+    "word": ["contrast"],
+    "count": [3]
+  },
+  {
+    "word": ["perform"],
+    "count": [3]
+  },
+  {
+    "word": ["morrison"],
+    "count": [3]
+  },
+  {
+    "word": ["predict"],
+    "count": [3]
+  },
+  {
+    "word": ["jokowi"],
+    "count": [3]
+  },
+  {
+    "word": ["via"],
+    "count": [3]
+  },
+  {
+    "word": ["@realdonaldtrump"],
+    "count": [3]
+  },
+  {
+    "word": ["biden"],
+    "count": [3]
+  },
+  {
+    "word": ["earlier"],
+    "count": [3]
+  },
+  {
+    "word": ["tension"],
+    "count": [3]
+  },
+  {
+    "word": ["object"],
+    "count": [3]
+  },
+  {
+    "word": ["moleong"],
+    "count": [3]
+  },
+  {
+    "word": ["produc"],
+    "count": [3]
+  },
+  {
+    "word": ["util"],
+    "count": [3]
+  },
+  {
+    "word": ["play"],
+    "count": [3]
+  },
+  {
+    "word": ["johnson"],
+    "count": [3]
+  },
+  {
+    "word": ["diseas"],
+    "count": [3]
+  },
+  {
+    "word": ["applic"],
+    "count": [3]
+  },
+  {
+    "word": ["sens"],
+    "count": [3]
+  },
+  {
+    "word": ["forc"],
+    "count": [3]
+  },
+  {
+    "word": ["oppress"],
+    "count": [3]
+  },
+  {
+    "word": ["african"],
+    "count": [3]
+  },
+  {
+    "word": ["today"],
+    "count": [3]
+  },
+  {
+    "word": ["bulli"],
+    "count": [3]
+  },
+  {
+    "word": ["want"],
+    "count": [3]
+  },
+  {
+    "word": ["anti-immigr"],
+    "count": [3]
+  },
+  {
+    "word": ["keep"],
+    "count": [3]
+  },
+  {
+    "word": ["pressur"],
+    "count": [3]
+  },
+  {
+    "word": ["sole"],
+    "count": [3]
+  },
+  {
+    "word": ["democrat"],
+    "count": [3]
+  },
+  {
+    "word": ["era"],
+    "count": [3]
+  },
+  {
+    "word": ["supremacist"],
+    "count": [3]
+  },
+  {
+    "word": ["centuri"],
+    "count": [3]
+  },
+  {
+    "word": ["peak"],
+    "count": [3]
+  },
+  {
+    "word": ["declin"],
+    "count": [3]
+  },
+  {
+    "word": ["cnn"],
+    "count": [3]
+  },
+  {
+    "word": ["re-elect"],
+    "count": [3]
+  },
+  {
+    "word": ["epidem"],
+    "count": [3]
+  },
+  {
+    "word": ["covid-"],
+    "count": [3]
+  },
+  {
+    "word": ["incorrect"],
+    "count": [3]
+  },
+  {
+    "word": ["fund"],
+    "count": [3]
+  },
+  {
+    "word": ["decis"],
+    "count": [3]
+  },
+  {
+    "word": ["substanti"],
+    "count": [3]
+  },
+  {
+    "word": ["label"],
+    "count": [3]
+  },
+  {
+    "word": ["rather"],
+    "count": [3]
+  },
+  {
+    "word": ["lot"],
+    "count": [3]
+  },
+  {
+    "word": ["cover"],
+    "count": [3]
+  },
+  {
+    "word": ["train"],
+    "count": [3]
+  },
+  {
+    "word": ["trudeau"],
+    "count": [3]
+  },
+  {
+    "word": ["convers"],
+    "count": [3]
+  },
+  {
+    "word": ["consider"],
+    "count": [3]
+  },
+  {
+    "word": ["capac"],
+    "count": [3]
+  },
+  {
+    "word": ["knowledg"],
+    "count": [3]
+  },
+  {
+    "word": ["fill"],
+    "count": [3]
+  },
+  {
+    "word": ["gap"],
+    "count": [3]
+  },
+  {
+    "word": ["elig"],
+    "count": [3]
+  },
+  {
+    "word": ["detriment"],
+    "count": [3]
+  },
+  {
+    "word": ["stereotyp"],
+    "count": [3]
+  },
+  {
+    "word": ["facebook"],
+    "count": [3]
+  },
+  {
+    "word": ["interfac"],
+    "count": [3]
+  },
+  {
+    "word": ["sensit"],
+    "count": [3]
+  },
+  {
+    "word": ["track"],
+    "count": [3]
+  },
+  {
+    "word": ["digit"],
+    "count": [3]
+  },
+  {
+    "word": ["mine"],
+    "count": [3]
+  },
+  {
+    "word": ["appropri"],
+    "count": [3]
+  },
+  {
+    "word": ["referenc"],
+    "count": [3]
+  },
+  {
+    "word": ["design"],
+    "count": [3]
+  },
+  {
+    "word": ["june"],
+    "count": [3]
+  },
+  {
+    "word": ["remov"],
+    "count": [3]
+  },
+  {
+    "word": ["outsid"],
+    "count": [3]
+  },
+  {
+    "word": ["full"],
+    "count": [3]
+  },
+  {
+    "word": ["reader"],
+    "count": [3]
+  },
+  {
+    "word": ["besid"],
+    "count": [3]
+  },
+  {
+    "word": ["tackl"],
+    "count": [3]
+  },
+  {
+    "word": ["ask"],
+    "count": [3]
+  },
+  {
+    "word": ["build"],
+    "count": [3]
+  },
+  {
+    "word": ["advocaci"],
+    "count": [3]
+  },
+  {
+    "word": ["fight"],
+    "count": [3]
+  },
+  {
+    "word": ["leverag"],
+    "count": [3]
+  },
+  {
+    "word": ["mirror"],
+    "count": [3]
+  },
+  {
+    "word": ["push"],
+    "count": [3]
+  },
+  {
+    "word": ["curriculum"],
+    "count": [3]
+  },
+  {
+    "word": ["appi"],
+    "count": [3]
+  },
+  {
+    "word": ["amplifi"],
+    "count": [3]
+  },
+  {
+    "word": ["intersect"],
+    "count": [3]
+  },
+  {
+    "word": ["teach"],
+    "count": [3]
+  },
+  {
+    "word": ["role"],
+    "count": [3]
+  },
+  {
+    "word": ["despit"],
+    "count": [3]
+  },
+  {
+    "word": ["notabl"],
+    "count": [3]
+  },
+  {
+    "word": ["underreport"],
+    "count": [3]
+  },
+  {
+    "word": ["broader"],
+    "count": [3]
+  },
+  {
+    "word": ["sort"],
+    "count": [3]
+  },
+  {
+    "word": ["anti-soci"],
+    "count": [3]
+  },
+  {
+    "word": ["incit"],
+    "count": [3]
+  },
+  {
+    "word": ["ordinari"],
+    "count": [3]
+  },
+  {
+    "word": ["appendix"],
+    "count": [3]
+  },
+  {
+    "word": ["misconduct"],
+    "count": [3]
+  },
+  {
+    "word": ["web"],
+    "count": [3]
+  },
+  {
+    "word": ["appar"],
+    "count": [3]
+  },
+  {
+    "word": ["inflammatori"],
+    "count": [3]
+  },
+  {
+    "word": ["corona"],
+    "count": [3]
+  },
+  {
+    "word": ["elev"],
+    "count": [3]
+  },
+  {
+    "word": ["propag"],
+    "count": [3]
+  },
+  {
+    "word": ["k"],
+    "count": [3]
+  },
+  {
+    "word": ["correspond"],
+    "count": [3]
+  },
+  {
+    "word": ["wherea"],
+    "count": [3]
+  },
+  {
+    "word": ["file"],
+    "count": [3]
+  },
+  {
+    "word": ["elder"],
+    "count": [2]
+  },
+  {
+    "word": ["post-donald"],
+    "count": [2]
+  },
+  {
+    "word": ["commonplac"],
+    "count": [2]
+  },
+  {
+    "word": ["literatur"],
+    "count": [2]
+  },
+  {
+    "word": ["massiv"],
+    "count": [2]
+  },
+  {
+    "word": ["asia-america"],
+    "count": [2]
+  },
+  {
+    "word": ["etc"],
+    "count": [2]
+  },
+  {
+    "word": ["background"],
+    "count": [2]
+  },
+  {
+    "word": ["realiz"],
+    "count": [2]
+  },
+  {
+    "word": ["rhizki"],
+    "count": [2]
+  },
+  {
+    "word": ["understood"],
+    "count": [2]
+  },
+  {
+    "word": ["tendenc"],
+    "count": [2]
+  },
+  {
+    "word": ["accompani"],
+    "count": [2]
+  },
+  {
+    "word": ["trade"],
+    "count": [2]
+  },
+  {
+    "word": ["desir"],
+    "count": [2]
+  },
+  {
+    "word": ["better"],
+    "count": [2]
+  },
+  {
+    "word": ["true"],
+    "count": [2]
+  },
+  {
+    "word": ["maher"],
+    "count": [2]
+  },
+  {
+    "word": ["parker"],
+    "count": [2]
+  },
+  {
+    "word": ["coloni"],
+    "count": [2]
+  },
+  {
+    "word": ["offend"],
+    "count": [2]
+  },
+  {
+    "word": ["forget"],
+    "count": [2]
+  },
+  {
+    "word": ["necessarili"],
+    "count": [2]
+  },
+  {
+    "word": ["western"],
+    "count": [2]
+  },
+  {
+    "word": ["elit"],
+    "count": [2]
+  },
+  {
+    "word": ["asia"],
+    "count": [2]
+  },
+  {
+    "word": ["criteria"],
+    "count": [2]
+  },
+  {
+    "word": ["product"],
+    "count": [2]
+  },
+  {
+    "word": ["manifest"],
+    "count": [2]
+  },
+  {
+    "word": ["entrench"],
+    "count": [2]
+  },
+  {
+    "word": ["safe"],
+    "count": [2]
+  },
+  {
+    "word": ["adequ"],
+    "count": [2]
+  },
+  {
+    "word": ["medic"],
+    "count": [2]
+  },
+  {
+    "word": ["clean"],
+    "count": [2]
+  },
+  {
+    "word": ["environ"],
+    "count": [2]
+  },
+  {
+    "word": ["wealth"],
+    "count": [2]
+  },
+  {
+    "word": ["socioeconom"],
+    "count": [2]
+  },
+  {
+    "word": ["modern"],
+    "count": [2]
+  },
+  {
+    "word": ["perpetu"],
+    "count": [2]
+  },
+  {
+    "word": ["injustic"],
+    "count": [2]
+  },
+  {
+    "word": ["abil"],
+    "count": [2]
+  },
+  {
+    "word": ["commiss"],
+    "count": [2]
+  },
+  {
+    "word": ["disparag"],
+    "count": [2]
+  },
+  {
+    "word": ["valu"],
+    "count": [2]
+  },
+  {
+    "word": ["format"],
+    "count": [2]
+  },
+  {
+    "word": ["claim"],
+    "count": [2]
+  },
+  {
+    "word": ["discrep"],
+    "count": [2]
+  },
+  {
+    "word": ["whole"],
+    "count": [2]
+  },
+  {
+    "word": ["wasp"],
+    "count": [2]
+  },
+  {
+    "word": ["circl"],
+    "count": [2]
+  },
+  {
+    "word": ["heart"],
+    "count": [2]
+  },
+  {
+    "word": ["excess"],
+    "count": [2]
+  },
+  {
+    "word": ["pride"],
+    "count": [2]
+  },
+  {
+    "word": ["discov"],
+    "count": [2]
+  },
+  {
+    "word": ["six"],
+    "count": [2]
+  },
+  {
+    "word": ["san"],
+    "count": [2]
+  },
+  {
+    "word": ["francisco"],
+    "count": [2]
+  },
+  {
+    "word": ["denni"],
+    "count": [2]
+  },
+  {
+    "word": ["polic"],
+    "count": [2]
+  },
+  {
+    "word": ["news"],
+    "count": [2]
+  },
+  {
+    "word": ["violent"],
+    "count": [2]
+  },
+  {
+    "word": ["surveil"],
+    "count": [2]
+  },
+  {
+    "word": ["activist"],
+    "count": [2]
+  },
+  {
+    "word": ["muslim"],
+    "count": [2]
+  },
+  {
+    "word": ["scapegoat"],
+    "count": [2]
+  },
+  {
+    "word": ["assess"],
+    "count": [2]
+  },
+  {
+    "word": ["easi"],
+    "count": [2]
+  },
+  {
+    "word": ["reaction"],
+    "count": [2]
+  },
+  {
+    "word": ["offer"],
+    "count": [2]
+  },
+  {
+    "word": ["explod"],
+    "count": [2]
+  },
+  {
+    "word": ["talk"],
+    "count": [2]
+  },
+  {
+    "word": ["realiti"],
+    "count": [2]
+  },
+  {
+    "word": ["potent"],
+    "count": [2]
+  },
+  {
+    "word": ["instrument"],
+    "count": [2]
+  },
+  {
+    "word": ["televis"],
+    "count": [2]
+  },
+  {
+    "word": ["free"],
+    "count": [2]
+  },
+  {
+    "word": ["methodolog"],
+    "count": [2]
+  },
+  {
+    "word": ["nurrun"],
+    "count": [2]
+  },
+  {
+    "word": ["muchammad"],
+    "count": [2]
+  },
+  {
+    "word": ["shiddieqi"],
+    "count": [2]
+  },
+  {
+    "word": ["print"],
+    "count": [2]
+  },
+  {
+    "word": ["mass"],
+    "count": [2]
+  },
+  {
+    "word": ["g7"],
+    "count": [2]
+  },
+  {
+    "word": ["novemb"],
+    "count": [2]
+  },
+  {
+    "word": ["quick"],
+    "count": [2]
+  },
+  {
+    "word": ["alert"],
+    "count": [2]
+  },
+  {
+    "word": ["advis"],
+    "count": [2]
+  },
+  {
+    "word": ["give"],
+    "count": [2]
+  },
+  {
+    "word": ["offici"],
+    "count": [2]
+  },
+  {
+    "word": ["prefer"],
+    "count": [2]
+  },
+  {
+    "word": ["nlp"],
+    "count": [2]
+  },
+  {
+    "word": ["fewest"],
+    "count": [2]
+  },
+  {
+    "word": ["chosen"],
+    "count": [2]
+  },
+  {
+    "word": ["unfavor"],
+    "count": [2]
+  },
+  {
+    "word": ["someth"],
+    "count": [2]
+  },
+  {
+    "word": ["dataset"],
+    "count": [2]
+  },
+  {
+    "word": ["mark"],
+    "count": [2]
+  },
+  {
+    "word": ["never"],
+    "count": [2]
+  },
+  {
+    "word": ["democraci"],
+    "count": [2]
+  },
+  {
+    "word": ["techniqu"],
+    "count": [2]
+  },
+  {
+    "word": ["entir"],
+    "count": [2]
+  },
+  {
+    "word": ["phenomena"],
+    "count": [2]
+  },
+  {
+    "word": ["idea"],
+    "count": [2]
+  },
+  {
+    "word": ["quantifi"],
+    "count": [2]
+  },
+  {
+    "word": ["primari"],
+    "count": [2]
+  },
+  {
+    "word": ["secondari"],
+    "count": [2]
+  },
+  {
+    "word": ["select"],
+    "count": [2]
+  },
+  {
+    "word": ["candid"],
+    "count": [2]
+  },
+  {
+    "word": ["run"],
+    "count": [2]
+  },
+  {
+    "word": ["fair"],
+    "count": [2]
+  },
+  {
+    "word": ["internet"],
+    "count": [2]
+  },
+  {
+    "word": ["necessari"],
+    "count": [2]
+  },
+  {
+    "word": ["real-tim"],
+    "count": [2]
+  },
+  {
+    "word": ["write"],
+    "count": [2]
+  },
+  {
+    "word": ["bound"],
+    "count": [2]
+  },
+  {
+    "word": ["launch"],
+    "count": [2]
+  },
+  {
+    "word": ["chris"],
+    "count": [2]
+  },
+  {
+    "word": ["togeth"],
+    "count": [2]
+  },
+  {
+    "word": ["civil"],
+    "count": [2]
+  },
+  {
+    "word": ["heritag"],
+    "count": [2]
+  },
+  {
+    "word": ["distanc"],
+    "count": [2]
+  },
+  {
+    "word": ["adjust"],
+    "count": [2]
+  },
+  {
+    "word": ["deal"],
+    "count": [2]
+  },
+  {
+    "word": ["cope"],
+    "count": [2]
+  },
+  {
+    "word": ["nativ"],
+    "count": [2]
+  },
+  {
+    "word": ["destruct"],
+    "count": [2]
+  },
+  {
+    "word": ["privat"],
+    "count": [2]
+  },
+  {
+    "word": ["thing"],
+    "count": [2]
+  },
+  {
+    "word": ["actual"],
+    "count": [2]
+  },
+  {
+    "word": ["alway"],
+    "count": [2]
+  },
+  {
+    "word": ["home"],
+    "count": [2]
+  },
+  {
+    "word": ["leav"],
+    "count": [2]
+  },
+  {
+    "word": ["everyon"],
+    "count": [2]
+  },
+  {
+    "word": ["mean"],
+    "count": [2]
+  },
+  {
+    "word": ["justic"],
+    "count": [2]
+  },
+  {
+    "word": ["vaccin"],
+    "count": [2]
+  },
+  {
+    "word": ["slogan"],
+    "count": [2]
+  },
+  {
+    "word": ["civilian"],
+    "count": [2]
+  },
+  {
+    "word": ["seem"],
+    "count": [2]
+  },
+  {
+    "word": ["crimin"],
+    "count": [2]
+  },
+  {
+    "word": ["well-b"],
+    "count": [2]
+  },
+  {
+    "word": ["fear"],
+    "count": [2]
+  },
+  {
+    "word": ["provoc"],
+    "count": [2]
+  },
+  {
+    "word": ["phenomenon"],
+    "count": [2]
+  },
+  {
+    "word": ["clash"],
+    "count": [2]
+  },
+  {
+    "word": ["charlottesvill"],
+    "count": [2]
+  },
+  {
+    "word": ["crowd"],
+    "count": [2]
+  },
+  {
+    "word": ["anti-"],
+    "count": [2]
+  },
+  {
+    "word": ["accus"],
+    "count": [2]
+  },
+  {
+    "word": ["corner"],
+    "count": [2]
+  },
+  {
+    "word": ["chanc"],
+    "count": [2]
+  },
+  {
+    "word": ["hard"],
+    "count": [2]
+  },
+  {
+    "word": ["success"],
+    "count": [2]
+  },
+  {
+    "word": ["appear"],
+    "count": [2]
+  },
+  {
+    "word": ["danger"],
+    "count": [2]
+  },
+  {
+    "word": ["die"],
+    "count": [2]
+  },
+  {
+    "word": ["risen"],
+    "count": [2]
+  },
+  {
+    "word": ["charact"],
+    "count": [2]
+  },
+  {
+    "word": ["econom"],
+    "count": [2]
+  },
+  {
+    "word": ["quit"],
+    "count": [2]
+  },
+  {
+    "word": ["overcom"],
+    "count": [2]
+  },
+  {
+    "word": ["obstacl"],
+    "count": [2]
+  },
+  {
+    "word": ["resolv"],
+    "count": [2]
+  },
+  {
+    "word": ["stori"],
+    "count": [2]
+  },
+  {
+    "word": ["site"],
+    "count": [2]
+  },
+  {
+    "word": ["stage"],
+    "count": [2]
+  },
+  {
+    "word": ["foreign"],
+    "count": [2]
+  },
+  {
+    "word": ["perspect"],
+    "count": [2]
+  },
+  {
+    "word": ["save"],
+    "count": [2]
+  },
+  {
+    "word": ["occurr"],
+    "count": [2]
+  },
+  {
+    "word": ["infect"],
+    "count": [2]
+  },
+  {
+    "word": ["usag"],
+    "count": [2]
+  },
+  {
+    "word": ["@philipruck"],
+    "count": [2]
+  },
+  {
+    "word": ["clear"],
+    "count": [2]
+  },
+  {
+    "word": ["w"],
+    "count": [2]
+  },
+  {
+    "word": ["congression"],
+    "count": [2]
+  },
+  {
+    "word": ["lean"],
+    "count": [2]
+  },
+  {
+    "word": ["evan"],
+    "count": [2]
+  },
+  {
+    "word": ["speechless"],
+    "count": [2]
+  },
+  {
+    "word": ["joke"],
+    "count": [2]
+  },
+  {
+    "word": ["stabl"],
+    "count": [2]
+  },
+  {
+    "word": ["improv"],
+    "count": [2]
+  },
+  {
+    "word": ["move"],
+    "count": [2]
+  },
+  {
+    "word": ["tone"],
+    "count": [2]
+  },
+  {
+    "word": ["portray"],
+    "count": [2]
+  },
+  {
+    "word": ["octob"],
+    "count": [2]
+  },
+  {
+    "word": ["underestim"],
+    "count": [2]
+  },
+  {
+    "word": ["open"],
+    "count": [2]
+  },
+  {
+    "word": ["controversi"],
+    "count": [2]
+  },
+  {
+    "word": ["decid"],
+    "count": [2]
+  },
+  {
+    "word": ["noteworthi"],
+    "count": [2]
+  },
+  {
+    "word": ["derogatori"],
+    "count": [2]
+  },
+  {
+    "word": ["australia"],
+    "count": [2]
+  },
+  {
+    "word": ["mix"],
+    "count": [2]
+  },
+  {
+    "word": ["stood"],
+    "count": [2]
+  },
+  {
+    "word": ["comparison"],
+    "count": [2]
+  },
+  {
+    "word": ["explan"],
+    "count": [2]
+  },
+  {
+    "word": ["attempt"],
+    "count": [2]
+  },
+  {
+    "word": ["counter"],
+    "count": [2]
+  },
+  {
+    "word": ["stronger"],
+    "count": [2]
+  },
+  {
+    "word": ["convey"],
+    "count": [2]
+  },
+  {
+    "word": ["perceiv"],
+    "count": [2]
+  },
+  {
+    "word": ["influenti"],
+    "count": [2]
+  },
+  {
+    "word": ["conclud"],
+    "count": [2]
+  },
+  {
+    "word": ["rule"],
+    "count": [2]
+  },
+  {
+    "word": ["data-min"],
+    "count": [2]
+  },
+  {
+    "word": ["joe"],
+    "count": [2]
+  },
+  {
+    "word": ["lesson"],
+    "count": [2]
+  },
+  {
+    "word": ["foundat"],
+    "count": [2]
+  },
+  {
+    "word": ["fastest-grow"],
+    "count": [2]
+  },
+  {
+    "word": ["bureau"],
+    "count": [2]
+  },
+  {
+    "word": ["profil"],
+    "count": [2]
+  },
+  {
+    "word": ["nationwid"],
+    "count": [2]
+  },
+  {
+    "word": ["presenc"],
+    "count": [2]
+  },
+  {
+    "word": ["alarm"],
+    "count": [2]
+  },
+  {
+    "word": ["urgent"],
+    "count": [2]
+  },
+  {
+    "word": ["depress"],
+    "count": [2]
+  },
+  {
+    "word": ["anxieti"],
+    "count": [2]
+  },
+  {
+    "word": ["instagram"],
+    "count": [2]
+  },
+  {
+    "word": ["rich"],
+    "count": [2]
+  },
+  {
+    "word": ["®"],
+    "count": [2]
+  },
+  {
+    "word": ["return"],
+    "count": [2]
+  },
+  {
+    "word": ["spreadsheet"],
+    "count": [2]
+  },
+  {
+    "word": ["url"],
+    "count": [2]
+  },
+  {
+    "word": ["implement"],
+    "count": [2]
+  },
+  {
+    "word": ["chose"],
+    "count": [2]
+  },
+  {
+    "word": ["birdiq"],
+    "count": [2]
+  },
+  {
+    "word": ["14-day"],
+    "count": [2]
+  },
+  {
+    "word": ["exclud"],
+    "count": [2]
+  },
+  {
+    "word": ["irrelev"],
+    "count": [2]
+  },
+  {
+    "word": ["independ"],
+    "count": [2]
+  },
+  {
+    "word": ["revis"],
+    "count": [2]
+  },
+  {
+    "word": ["credibl"],
+    "count": [2]
+  },
+  {
+    "word": ["transfer"],
+    "count": [2]
+  },
+  {
+    "word": ["trail"],
+    "count": [2]
+  },
+  {
+    "word": ["sampl"],
+    "count": [2]
+  },
+  {
+    "word": ["evalu"],
+    "count": [2]
+  },
+  {
+    "word": ["privaci"],
+    "count": [2]
+  },
+  {
+    "word": ["suffer"],
+    "count": [2]
+  },
+  {
+    "word": ["legaci"],
+    "count": [2]
+  },
+  {
+    "word": ["vulner"],
+    "count": [2]
+  },
+  {
+    "word": ["exemplifi"],
+    "count": [2]
+  },
+  {
+    "word": ["volunt"],
+    "count": [2]
+  },
+  {
+    "word": ["treat"],
+    "count": [2]
+  },
+  {
+    "word": ["strengthen"],
+    "count": [2]
+  },
+  {
+    "word": ["allyship"],
+    "count": [2]
+  },
+  {
+    "word": ["persist"],
+    "count": [2]
+  },
+  {
+    "word": ["alli"],
+    "count": [2]
+  },
+  {
+    "word": ["love"],
+    "count": [2]
+  },
+  {
+    "word": ["soft"],
+    "count": [2]
+  },
+  {
+    "word": ["facilit"],
+    "count": [2]
+  },
+  {
+    "word": ["c"],
+    "count": [2]
+  },
+  {
+    "word": ["authent"],
+    "count": [2]
+  },
+  {
+    "word": ["item"],
+    "count": [2]
+  },
+  {
+    "word": ["ing"],
+    "count": [2]
+  },
+  {
+    "word": ["fundament"],
+    "count": [2]
+  },
+  {
+    "word": ["myth"],
+    "count": [2]
+  },
+  {
+    "word": ["sport"],
+    "count": [2]
+  },
+  {
+    "word": ["younger"],
+    "count": [2]
+  },
+  {
+    "word": ["worker"],
+    "count": [2]
+  },
+  {
+    "word": ["invis"],
+    "count": [2]
+  },
+  {
+    "word": ["neglect"],
+    "count": [2]
+  },
+  {
+    "word": ["achiev"],
+    "count": [2]
+  },
+  {
+    "word": ["miss"],
+    "count": [2]
+  },
+  {
+    "word": ["stopasianh"],
+    "count": [2]
+  },
+  {
+    "word": ["encount"],
+    "count": [2]
+  },
+  {
+    "word": ["surround"],
+    "count": [2]
+  },
+  {
+    "word": ["therapi"],
+    "count": [2]
+  },
+  {
+    "word": ["psychosoci"],
+    "count": [2]
+  },
+  {
+    "word": ["blasian"],
+    "count": [2]
+  },
+  {
+    "word": ["teaach"],
+    "count": [2]
+  },
+  {
+    "word": ["illinoi"],
+    "count": [2]
+  },
+  {
+    "word": ["hesit"],
+    "count": [2]
+  },
+  {
+    "word": ["heavi"],
+    "count": [2]
+  },
+  {
+    "word": ["enrich"],
+    "count": [2]
+  },
+  {
+    "word": ["drive"],
+    "count": [2]
+  },
+  {
+    "word": ["particip"],
+    "count": [2]
+  },
+  {
+    "word": ["embrac"],
+    "count": [2]
+  },
+  {
+    "word": ["demograph"],
+    "count": [2]
+  },
+  {
+    "word": ["reduc"],
+    "count": [2]
+  },
+  {
+    "word": ["discern"],
+    "count": [2]
+  },
+  {
+    "word": ["public’"],
+    "count": [2]
+  },
+  {
+    "word": ["psycholog"],
+    "count": [2]
+  },
+  {
+    "word": ["window"],
+    "count": [2]
+  },
+  {
+    "word": ["spatial"],
+    "count": [2]
+  },
+  {
+    "word": ["variat"],
+    "count": [2]
+  },
+  {
+    "word": ["pronounc"],
+    "count": [2]
+  },
+  {
+    "word": ["hillari"],
+    "count": [2]
+  },
+  {
+    "word": ["consequenti"],
+    "count": [2]
+  },
+  {
+    "word": ["pro-soci"],
+    "count": [2]
+  },
+  {
+    "word": ["restrict"],
+    "count": [2]
+  },
+  {
+    "word": ["freedom"],
+    "count": [2]
+  },
+  {
+    "word": ["capitol"],
+    "count": [2]
+  },
+  {
+    "word": ["reinstat"],
+    "count": [2]
+  },
+  {
+    "word": ["county-level"],
+    "count": [2]
+  },
+  {
+    "word": ["fujiwara"],
+    "count": [2]
+  },
+  {
+    "word": ["self-report"],
+    "count": [2]
+  },
+  {
+    "word": ["implic"],
+    "count": [2]
+  },
+  {
+    "word": ["timelin"],
+    "count": [2]
+  },
+  {
+    "word": ["rural"],
+    "count": [2]
+  },
+  {
+    "word": ["chart"],
+    "count": [2]
+  },
+  {
+    "word": ["highest"],
+    "count": [2]
+  },
+  {
+    "word": ["instead"],
+    "count": [2]
+  },
+  {
+    "word": ["altern"],
+    "count": [2]
+  },
+  {
+    "word": ["unlik"],
+    "count": [2]
+  },
+  {
+    "word": ["a2"],
+    "count": [2]
+  },
+  {
+    "word": ["a5"],
+    "count": [2]
+  },
+  {
+    "word": ["a6"],
+    "count": [2]
+  },
+  {
+    "word": ["vs"],
+    "count": [2]
+  },
+  {
+    "word": ["manner"],
+    "count": [2]
+  },
+  {
+    "word": ["won"],
+    "count": [2]
+  },
+  {
+    "word": ["hilari"],
+    "count": [2]
+  },
+  {
+    "word": ["magnitud"],
+    "count": [2]
+  },
+  {
+    "word": ["logarithm"],
+    "count": [2]
+  },
+  {
+    "word": ["primarili"],
+    "count": [2]
+  },
+  {
+    "word": ["coeffici"],
+    "count": [2]
+  },
+  {
+    "word": ["a13"],
+    "count": [2]
+  },
+  {
+    "word": ["a14"],
+    "count": [2]
+  },
+  {
+    "word": ["driven"],
+    "count": [2]
+  },
+  {
+    "word": ["newswir"],
+    "count": [2]
+  },
+  {
+    "word": ["irregular"],
+    "count": [2]
+  },
+  {
+    "word": ["greatest"],
+    "count": [2]
+  },
+  {
+    "word": ["west"],
+    "count": [2]
+  },
+  {
+    "word": ["longer-term"],
+    "count": [2]
+  },
+  {
+    "word": ["signal"],
+    "count": [2]
+  },
+  {
+    "word": ["wherebi"],
+    "count": [2]
+  },
+  {
+    "word": ["unpreced"],
+    "count": [1]
+  },
+  {
+    "word": ["keyword"],
+    "count": [1]
+  },
+  {
+    "word": ["born"],
+    "count": [1]
+  },
+  {
+    "word": ["shape"],
+    "count": [1]
+  },
+  {
+    "word": ["nose"],
+    "count": [1]
+  },
+  {
+    "word": ["harmoni"],
+    "count": [1]
+  },
+  {
+    "word": ["disrupt"],
+    "count": [1]
+  },
+  {
+    "word": ["function"],
+    "count": [1]
+  },
+  {
+    "word": ["salam"],
+    "count": [1]
+  },
+  {
+    "word": ["privileg"],
+    "count": [1]
+  },
+  {
+    "word": ["multicultur"],
+    "count": [1]
+  },
+  {
+    "word": ["worldwid"],
+    "count": [1]
+  },
+  {
+    "word": ["plural"],
+    "count": [1]
+  },
+  {
+    "word": ["climat"],
+    "count": [1]
+  },
+  {
+    "word": ["reduction"],
+    "count": [1]
+  },
+  {
+    "word": ["deni"],
+    "count": [1]
+  },
+  {
+    "word": ["univers"],
+    "count": [1]
+  },
+  {
+    "word": ["deconstruct"],
+    "count": [1]
+  },
+  {
+    "word": ["equival"],
+    "count": [1]
+  },
+  {
+    "word": ["construct"],
+    "count": [1]
+  },
+  {
+    "word": ["africa"],
+    "count": [1]
+  },
+  {
+    "word": ["latin"],
+    "count": [1]
+  },
+  {
+    "word": ["region"],
+    "count": [1]
+  },
+  {
+    "word": ["jone"],
+    "count": [1]
+  },
+  {
+    "word": ["dispar"],
+    "count": [1]
+  },
+  {
+    "word": ["inherit"],
+    "count": [1]
+  },
+  {
+    "word": ["disadvantag"],
+    "count": [1]
+  },
+  {
+    "word": ["inact"],
+    "count": [1]
+  },
+  {
+    "word": ["advers"],
+    "count": [1]
+  },
+  {
+    "word": ["unequ"],
+    "count": [1]
+  },
+  {
+    "word": ["organiz"],
+    "count": [1]
+  },
+  {
+    "word": ["infrastructur"],
+    "count": [1]
+  },
+  {
+    "word": ["vital"],
+    "count": [1]
+  },
+  {
+    "word": ["relationship"],
+    "count": [1]
+  },
+  {
+    "word": ["class"],
+    "count": [1]
+  },
+  {
+    "word": ["discret"],
+    "count": [1]
+  },
+  {
+    "word": ["endur"],
+    "count": [1]
+  },
+  {
+    "word": ["element"],
+    "count": [1]
+  },
+  {
+    "word": ["instinct"],
+    "count": [1]
+  },
+  {
+    "word": ["conjur"],
+    "count": [1]
+  },
+  {
+    "word": ["hear"],
+    "count": [1]
+  },
+  {
+    "word": ["inadvert"],
+    "count": [1]
+  },
+  {
+    "word": ["omiss"],
+    "count": [1]
+  },
+  {
+    "word": ["undervalu"],
+    "count": [1]
+  },
+  {
+    "word": ["scapego"],
+    "count": [1]
+  },
+  {
+    "word": ["dehuman"],
+    "count": [1]
+  },
+  {
+    "word": ["inher"],
+    "count": [1]
+  },
+  {
+    "word": ["wors"],
+    "count": [1]
+  },
+  {
+    "word": ["extinct"],
+    "count": [1]
+  },
+  {
+    "word": ["prove"],
+    "count": [1]
+  },
+  {
+    "word": ["hereditari"],
+    "count": [1]
+  },
+  {
+    "word": ["tulsa"],
+    "count": [1]
+  },
+  {
+    "word": ["main"],
+    "count": [1]
+  },
+  {
+    "word": ["economi"],
+    "count": [1]
+  },
+  {
+    "word": ["incred"],
+    "count": [1]
+  },
+  {
+    "word": ["swift"],
+    "count": [1]
+  },
+  {
+    "word": ["revolut"],
+    "count": [1]
+  },
+  {
+    "word": ["insepar"],
+    "count": [1]
+  },
+  {
+    "word": ["notion"],
+    "count": [1]
+  },
+  {
+    "word": ["territori"],
+    "count": [1]
+  },
+  {
+    "word": ["england"],
+    "count": [1]
+  },
+  {
+    "word": ["protestant"],
+    "count": [1]
+  },
+  {
+    "word": ["resound"],
+    "count": [1]
+  },
+  {
+    "word": ["arrog"],
+    "count": [1]
+  },
+  {
+    "word": ["rock"],
+    "count": [1]
+  },
+  {
+    "word": ["cnbc"],
+    "count": [1]
+  },
+  {
+    "word": ["indonesia"],
+    "count": [1]
+  },
+  {
+    "word": ["descend"],
+    "count": [1]
+  },
+  {
+    "word": ["came"],
+    "count": [1]
+  },
+  {
+    "word": ["uncl"],
+    "count": [1]
+  },
+  {
+    "word": ["sam"],
+    "count": [1]
+  },
+  {
+    "word": ["complaint"],
+    "count": [1]
+  },
+  {
+    "word": ["shoot"],
+    "count": [1]
+  },
+  {
+    "word": ["tuesday"],
+    "count": [1]
+  },
+  {
+    "word": ["spa"],
+    "count": [1]
+  },
+  {
+    "word": ["asian-"],
+    "count": [1]
+  },
+  {
+    "word": ["vichar"],
+    "count": [1]
+  },
+  {
+    "word": ["ratanapakd"],
+    "count": [1]
+  },
+  {
+    "word": ["87-year-old"],
+    "count": [1]
+  },
+  {
+    "word": ["thai"],
+    "count": [1]
+  },
+  {
+    "word": ["67-year-old"],
+    "count": [1]
+  },
+  {
+    "word": ["vicious"],
+    "count": [1]
+  },
+  {
+    "word": ["koreatown"],
+    "count": [1]
+  },
+  {
+    "word": ["los"],
+    "count": [1]
+  },
+  {
+    "word": ["kim"],
+    "count": [1]
+  },
+  {
+    "word": ["beaten"],
+    "count": [1]
+  },
+  {
+    "word": ["assail"],
+    "count": [1]
+  },
+  {
+    "word": ["shout"],
+    "count": [1]
+  },
+  {
+    "word": ["nypd"],
+    "count": [1]
+  },
+  {
+    "word": ["twenty-four"],
+    "count": [1]
+  },
+  {
+    "word": ["aspect"],
+    "count": [1]
+  },
+  {
+    "word": ["harsh"],
+    "count": [1]
+  },
+  {
+    "word": ["penalti"],
+    "count": [1]
+  },
+  {
+    "word": ["imprison"],
+    "count": [1]
+  },
+  {
+    "word": ["fail"],
+    "count": [1]
+  },
+  {
+    "word": ["drug"],
+    "count": [1]
+  },
+  {
+    "word": ["war"],
+    "count": [1]
+  },
+  {
+    "word": ["bail"],
+    "count": [1]
+  },
+  {
+    "word": ["guilti"],
+    "count": [1]
+  },
+  {
+    "word": ["plea"],
+    "count": [1]
+  },
+  {
+    "word": ["religi"],
+    "count": [1]
+  },
+  {
+    "word": ["asylum"],
+    "count": [1]
+  },
+  {
+    "word": ["seeker"],
+    "count": [1]
+  },
+  {
+    "word": ["refuge"],
+    "count": [1]
+  },
+  {
+    "word": ["watch"],
+    "count": [1]
+  },
+  {
+    "word": ["violat"],
+    "count": [1]
+  },
+  {
+    "word": ["exacerb"],
+    "count": [1]
+  },
+  {
+    "word": ["imbal"],
+    "count": [1]
+  },
+  {
+    "word": ["intend"],
+    "count": [1]
+  },
+  {
+    "word": ["abdic"],
+    "count": [1]
+  },
+  {
+    "word": ["discrimination-rel"],
+    "count": [1]
+  },
+  {
+    "word": ["disapprov"],
+    "count": [1]
+  },
+  {
+    "word": ["disagr"],
+    "count": [1]
+  },
+  {
+    "word": ["easier"],
+    "count": [1]
+  },
+  {
+    "word": ["#stopaapih"],
+    "count": [1]
+  },
+  {
+    "word": ["donat"],
+    "count": [1]
+  },
+  {
+    "word": ["#coronavirus"],
+    "count": [1]
+  },
+  {
+    "word": ["#pandem"],
+    "count": [1]
+  },
+  {
+    "word": ["constitu"],
+    "count": [1]
+  },
+  {
+    "word": ["convent"],
+    "count": [1]
+  },
+  {
+    "word": ["notifi"],
+    "count": [1]
+  },
+  {
+    "word": ["microblog"],
+    "count": [1]
+  },
+  {
+    "word": ["thorough"],
+    "count": [1]
+  },
+  {
+    "word": ["nine"],
+    "count": [1]
+  },
+  {
+    "word": ["verifi"],
+    "count": [1]
+  },
+  {
+    "word": ["viral"],
+    "count": [1]
+  },
+  {
+    "word": ["authorit"],
+    "count": [1]
+  },
+  {
+    "word": ["morale-boost"],
+    "count": [1]
+  },
+  {
+    "word": ["correl"],
+    "count": [1]
+  },
+  {
+    "word": ["exercis"],
+    "count": [1]
+  },
+  {
+    "word": ["caution"],
+    "count": [1]
+  },
+  {
+    "word": ["health-rel"],
+    "count": [1]
+  },
+  {
+    "word": ["government-bas"],
+    "count": [1]
+  },
+  {
+    "word": ["eye"],
+    "count": [1]
+  },
+  {
+    "word": ["deflect"],
+    "count": [1]
+  },
+  {
+    "word": ["python"],
+    "count": [1]
+  },
+  {
+    "word": ["prime"],
+    "count": [1]
+  },
+  {
+    "word": ["minist"],
+    "count": [1]
+  },
+  {
+    "word": ["dwianto"],
+    "count": [1]
+  },
+  {
+    "word": ["#jokowi"],
+    "count": [1]
+  },
+  {
+    "word": ["#miglob"],
+    "count": [1]
+  },
+  {
+    "word": ["#trump"],
+    "count": [1]
+  },
+  {
+    "word": ["#donaldtrump"],
+    "count": [1]
+  },
+  {
+    "word": ["henc"],
+    "count": [1]
+  },
+  {
+    "word": ["ideal"],
+    "count": [1]
+  },
+  {
+    "word": ["divis"],
+    "count": [1]
+  },
+  {
+    "word": ["indonesian"],
+    "count": [1]
+  },
+  {
+    "word": ["@jokowi"],
+    "count": [1]
+  },
+  {
+    "word": ["brand24"],
+    "count": [1]
+  },
+  {
+    "word": ["software-autom"],
+    "count": [1]
+  },
+  {
+    "word": ["meningkatnya"],
+    "count": [1]
+  },
+  {
+    "word": ["aksi-aksi"],
+    "count": [1]
+  },
+  {
+    "word": ["terhadap"],
+    "count": [1]
+  },
+  {
+    "word": ["warga"],
+    "count": [1]
+  },
+  {
+    "word": ["keturunan"],
+    "count": [1]
+  },
+  {
+    "word": ["di"],
+    "count": [1]
+  },
+  {
+    "word": ["amerika"],
+    "count": [1]
+  },
+  {
+    "word": ["joseph"],
+    "count": [1]
+  },
+  {
+    "word": ["administr"],
+    "count": [1]
+  },
+  {
+    "word": ["nainggolan"],
+    "count": [1]
+  },
+  {
+    "word": ["pose"],
+    "count": [1]
+  },
+  {
+    "word": ["pluralist"],
+    "count": [1]
+  },
+  {
+    "word": ["guarante"],
+    "count": [1]
+  },
+  {
+    "word": ["compon"],
+    "count": [1]
+  },
+  {
+    "word": ["sugiyono"],
+    "count": [1]
+  },
+  {
+    "word": ["holist"],
+    "count": [1]
+  },
+  {
+    "word": ["depth"],
+    "count": [1]
+  },
+  {
+    "word": ["satria"],
+    "count": [1]
+  },
+  {
+    "word": ["sugandi"],
+    "count": [1]
+  },
+  {
+    "word": ["dwiyayani"],
+    "count": [1]
+  },
+  {
+    "word": ["p"],
+    "count": [1]
+  },
+  {
+    "word": ["assumpt"],
+    "count": [1]
+  },
+  {
+    "word": ["qualiti"],
+    "count": [1]
+  },
+  {
+    "word": ["spoken"],
+    "count": [1]
+  },
+  {
+    "word": ["gross"],
+    "count": [1]
+  },
+  {
+    "word": ["book"],
+    "count": [1]
+  },
+  {
+    "word": ["essay"],
+    "count": [1]
+  },
+  {
+    "word": ["duli"],
+    "count": [1]
+  },
+  {
+    "word": ["draw"],
+    "count": [1]
+  },
+  {
+    "word": ["hurt"],
+    "count": [1]
+  },
+  {
+    "word": ["benefit"],
+    "count": [1]
+  },
+  {
+    "word": ["writer"],
+    "count": [1]
+  },
+  {
+    "word": ["match"],
+    "count": [1]
+  },
+  {
+    "word": ["discoveri"],
+    "count": [1]
+  },
+  {
+    "word": ["epicent"],
+    "count": [1]
+  },
+  {
+    "word": ["intensifi"],
+    "count": [1]
+  },
+  {
+    "word": ["carrier"],
+    "count": [1]
+  },
+  {
+    "word": ["hardest-hit"],
+    "count": [1]
+  },
+  {
+    "word": ["behalf"],
+    "count": [1]
+  },
+  {
+    "word": ["editori"],
+    "count": [1]
+  },
+  {
+    "word": ["journal"],
+    "count": [1]
+  },
+  {
+    "word": ["vocat"],
+    "count": [1]
+  },
+  {
+    "word": ["ipso"],
+    "count": [1]
+  },
+  {
+    "word": ["someon"],
+    "count": [1]
+  },
+  {
+    "word": ["janet"],
+    "count": [1]
+  },
+  {
+    "word": ["dhillon"],
+    "count": [1]
+  },
+  {
+    "word": ["chair"],
+    "count": [1]
+  },
+  {
+    "word": ["staff"],
+    "count": [1]
+  },
+  {
+    "word": ["illeg"],
+    "count": [1]
+  },
+  {
+    "word": ["infring"],
+    "count": [1]
+  },
+  {
+    "word": ["upon"],
+    "count": [1]
+  },
+  {
+    "word": ["experiment"],
+    "count": [1]
+  },
+  {
+    "word": ["skill"],
+    "count": [1]
+  },
+  {
+    "word": ["lai"],
+    "count": [1]
+  },
+  {
+    "word": ["babcock"],
+    "count": [1]
+  },
+  {
+    "word": ["mcmurtri"],
+    "count": [1]
+  },
+  {
+    "word": ["doubl"],
+    "count": [1]
+  },
+  {
+    "word": ["grown"],
+    "count": [1]
+  },
+  {
+    "word": ["well-docu"],
+    "count": [1]
+  },
+  {
+    "word": ["umpteenth"],
+    "count": [1]
+  },
+  {
+    "word": ["evok"],
+    "count": [1]
+  },
+  {
+    "word": ["exploit"],
+    "count": [1]
+  },
+  {
+    "word": ["hispan"],
+    "count": [1]
+  },
+  {
+    "word": ["intimid"],
+    "count": [1]
+  },
+  {
+    "word": ["segreg"],
+    "count": [1]
+  },
+  {
+    "word": ["properti"],
+    "count": [1]
+  },
+  {
+    "word": ["resist"],
+    "count": [1]
+  },
+  {
+    "word": ["eat"],
+    "count": [1]
+  },
+  {
+    "word": ["rude"],
+    "count": [1]
+  },
+  {
+    "word": ["confus"],
+    "count": [1]
+  },
+  {
+    "word": ["brave"],
+    "count": [1]
+  },
+  {
+    "word": ["lose"],
+    "count": [1]
+  },
+  {
+    "word": ["medicin"],
+    "count": [1]
+  },
+  {
+    "word": ["funer"],
+    "count": [1]
+  },
+  {
+    "word": ["unwritten"],
+    "count": [1]
+  },
+  {
+    "word": ["veil"],
+    "count": [1]
+  },
+  {
+    "word": ["welfar"],
+    "count": [1]
+  },
+  {
+    "word": ["punit"],
+    "count": [1]
+  },
+  {
+    "word": ["abolit"],
+    "count": [1]
+  },
+  {
+    "word": ["basi"],
+    "count": [1]
+  },
+  {
+    "word": ["abl"],
+    "count": [1]
+  },
+  {
+    "word": ["defus"],
+    "count": [1]
+  },
+  {
+    "word": ["extent"],
+    "count": [1]
+  },
+  {
+    "word": ["regul"],
+    "count": [1]
+  },
+  {
+    "word": ["foster"],
+    "count": [1]
+  },
+  {
+    "word": ["alien"],
+    "count": [1]
+  },
+  {
+    "word": ["registr"],
+    "count": [1]
+  },
+  {
+    "word": ["execut"],
+    "count": [1]
+  },
+  {
+    "word": ["integr"],
+    "count": [1]
+  },
+  {
+    "word": ["secur"],
+    "count": [1]
+  },
+  {
+    "word": ["45th"],
+    "count": [1]
+  },
+  {
+    "word": ["shock"],
+    "count": [1]
+  },
+  {
+    "word": ["discriminatori"],
+    "count": [1]
+  },
+  {
+    "word": ["parti"],
+    "count": [1]
+  },
+  {
+    "word": ["re-emerg"],
+    "count": [1]
+  },
+  {
+    "word": ["fuel"],
+    "count": [1]
+  },
+  {
+    "word": ["xenophobia"],
+    "count": [1]
+  },
+  {
+    "word": ["supremaci"],
+    "count": [1]
+  },
+  {
+    "word": ["spirit"],
+    "count": [1]
+  },
+  {
+    "word": ["ascens"],
+    "count": [1]
+  },
+  {
+    "word": ["bloodi"],
+    "count": [1]
+  },
+  {
+    "word": ["pro"],
+    "count": [1]
+  },
+  {
+    "word": ["counter-whit"],
+    "count": [1]
+  },
+  {
+    "word": ["camp"],
+    "count": [1]
+  },
+  {
+    "word": ["conflict"],
+    "count": [1]
+  },
+  {
+    "word": ["middl"],
+    "count": [1]
+  },
+  {
+    "word": ["far-right"],
+    "count": [1]
+  },
+  {
+    "word": ["neo-nazi"],
+    "count": [1]
+  },
+  {
+    "word": ["nationalist"],
+    "count": [1]
+  },
+  {
+    "word": ["chant"],
+    "count": [1]
+  },
+  {
+    "word": ["crash"],
+    "count": [1]
+  },
+  {
+    "word": ["car"],
+    "count": [1]
+  },
+  {
+    "word": ["anti-racist"],
+    "count": [1]
+  },
+  {
+    "word": ["32-year-old"],
+    "count": [1]
+  },
+  {
+    "word": ["woman"],
+    "count": [1]
+  },
+  {
+    "word": ["injur"],
+    "count": [1]
+  },
+  {
+    "word": ["emphat"],
+    "count": [1]
+  },
+  {
+    "word": ["inevit"],
+    "count": [1]
+  },
+  {
+    "word": ["jumawa"],
+    "count": [1]
+  },
+  {
+    "word": ["overconfid"],
+    "count": [1]
+  },
+  {
+    "word": ["reel"],
+    "count": [1]
+  },
+  {
+    "word": ["re-strengthen"],
+    "count": [1]
+  },
+  {
+    "word": ["millennium"],
+    "count": [1]
+  },
+  {
+    "word": ["21st"],
+    "count": [1]
+  },
+  {
+    "word": ["1960s"],
+    "count": [1]
+  },
+  {
+    "word": ["struggl"],
+    "count": [1]
+  },
+  {
+    "word": ["martin"],
+    "count": [1]
+  },
+  {
+    "word": ["luther"],
+    "count": [1]
+  },
+  {
+    "word": ["king"],
+    "count": [1]
+  },
+  {
+    "word": ["yet"],
+    "count": [1]
+  },
+  {
+    "word": ["succeed"],
+    "count": [1]
+  },
+  {
+    "word": ["floyd"],
+    "count": [1]
+  },
+  {
+    "word": ["ahead"],
+    "count": [1]
+  },
+  {
+    "word": ["conscious"],
+    "count": [1]
+  },
+  {
+    "word": ["wrongdo"],
+    "count": [1]
+  },
+  {
+    "word": ["weak"],
+    "count": [1]
+  },
+  {
+    "word": ["hubei"],
+    "count": [1]
+  },
+  {
+    "word": ["provinc"],
+    "count": [1]
+  },
+  {
+    "word": ["wildfir"],
+    "count": [1]
+  },
+  {
+    "word": ["us’"],
+    "count": [1]
+  },
+  {
+    "word": ["rivalri"],
+    "count": [1]
+  },
+  {
+    "word": ["insurmount"],
+    "count": [1]
+  },
+  {
+    "word": ["disput"],
+    "count": [1]
+  },
+  {
+    "word": ["win"],
+    "count": [1]
+  },
+  {
+    "word": ["meanwhil"],
+    "count": [1]
+  },
+  {
+    "word": ["prosper"],
+    "count": [1]
+  },
+  {
+    "word": ["surpris"],
+    "count": [1]
+  },
+  {
+    "word": ["symbol"],
+    "count": [1]
+  },
+  {
+    "word": ["oversea"],
+    "count": [1]
+  },
+  {
+    "word": ["self-protect"],
+    "count": [1]
+  },
+  {
+    "word": ["dead"],
+    "count": [1]
+  },
+  {
+    "word": ["undeni"],
+    "count": [1]
+  },
+  {
+    "word": ["2020-2021"],
+    "count": [1]
+  },
+  {
+    "word": ["non-verb"],
+    "count": [1]
+  },
+  {
+    "word": ["far"],
+    "count": [1]
+  },
+  {
+    "word": ["indiffer"],
+    "count": [1]
+  },
+  {
+    "word": ["fantasi"],
+    "count": [1]
+  },
+  {
+    "word": ["delus"],
+    "count": [1]
+  },
+  {
+    "word": ["thousand"],
+    "count": [1]
+  },
+  {
+    "word": ["may-jun"],
+    "count": [1]
+  },
+  {
+    "word": ["malais"],
+    "count": [1]
+  },
+  {
+    "word": ["1930s"],
+    "count": [1]
+  },
+  {
+    "word": ["unfit"],
+    "count": [1]
+  },
+  {
+    "word": ["midst"],
+    "count": [1]
+  },
+  {
+    "word": ["closur"],
+    "count": [1]
+  },
+  {
+    "word": ["halt"],
+    "count": [1]
+  },
+  {
+    "word": ["ramif"],
+    "count": [1]
+  },
+  {
+    "word": ["weigh"],
+    "count": [1]
+  },
+  {
+    "word": ["heavili"],
+    "count": [1]
+  },
+  {
+    "word": ["cost"],
+    "count": [1]
+  },
+  {
+    "word": ["re-"],
+    "count": [1]
+  },
+  {
+    "word": ["dan"],
+    "count": [1]
+  },
+  {
+    "word": ["eberhart"],
+    "count": [1]
+  },
+  {
+    "word": ["donor"],
+    "count": [1]
+  },
+  {
+    "word": ["bennet"],
+    "count": [1]
+  },
+  {
+    "word": ["maintain"],
+    "count": [1]
+  },
+  {
+    "word": ["apprais"],
+    "count": [1]
+  },
+  {
+    "word": ["catastroph"],
+    "count": [1]
+  },
+  {
+    "word": ["mortal"],
+    "count": [1]
+  },
+  {
+    "word": ["rose"],
+    "count": [1]
+  },
+  {
+    "word": ["slowli"],
+    "count": [1]
+  },
+  {
+    "word": ["muller"],
+    "count": [1]
+  },
+  {
+    "word": ["narrat"],
+    "count": [1]
+  },
+  {
+    "word": ["mastermind"],
+    "count": [1]
+  },
+  {
+    "word": ["damag"],
+    "count": [1]
+  },
+  {
+    "word": ["reput"],
+    "count": [1]
+  },
+  {
+    "word": ["dub"],
+    "count": [1]
+  },
+  {
+    "word": ["vazquez"],
+    "count": [1]
+  },
+  {
+    "word": ["klein"],
+    "count": [1]
+  },
+  {
+    "word": ["justif"],
+    "count": [1]
+  },
+  {
+    "word": ["realm"],
+    "count": [1]
+  },
+  {
+    "word": ["civid-19"],
+    "count": [1]
+  },
+  {
+    "word": ["impos"],
+    "count": [1]
+  },
+  {
+    "word": ["freez"],
+    "count": [1]
+  },
+  {
+    "word": ["mahas"],
+    "count": [1]
+  },
+  {
+    "word": ["quasi-belief"],
+    "count": [1]
+  },
+  {
+    "word": ["dissip"],
+    "count": [1]
+  },
+  {
+    "word": ["milder"],
+    "count": [1]
+  },
+  {
+    "word": ["china’"],
+    "count": [1]
+  },
+  {
+    "word": ["warm"],
+    "count": [1]
+  },
+  {
+    "word": ["grate"],
+    "count": [1]
+  },
+  {
+    "word": ["xi"],
+    "count": [1]
+  },
+  {
+    "word": ["jinp"],
+    "count": [1]
+  },
+  {
+    "word": ["casualti"],
+    "count": [1]
+  },
+  {
+    "word": ["enact"],
+    "count": [1]
+  },
+  {
+    "word": ["incent"],
+    "count": [1]
+  },
+  {
+    "word": ["transform"],
+    "count": [1]
+  },
+  {
+    "word": ["difficulti"],
+    "count": [1]
+  },
+  {
+    "word": ["forthcom"],
+    "count": [1]
+  },
+  {
+    "word": ["occas"],
+    "count": [1]
+  },
+  {
+    "word": ["mount"],
+    "count": [1]
+  },
+  {
+    "word": ["politician"],
+    "count": [1]
+  },
+  {
+    "word": ["drew"],
+    "count": [1]
+  },
+  {
+    "word": ["updat"],
+    "count": [1]
+  },
+  {
+    "word": ["consecut"],
+    "count": [1]
+  },
+  {
+    "word": ["wrote"],
+    "count": [1]
+  },
+  {
+    "word": ["ted"],
+    "count": [1]
+  },
+  {
+    "word": ["lieu"],
+    "count": [1]
+  },
+  {
+    "word": ["@tedlieu"],
+    "count": [1]
+  },
+  {
+    "word": ["33rd"],
+    "count": [1]
+  },
+  {
+    "word": ["district"],
+    "count": [1]
+  },
+  {
+    "word": ["dear"],
+    "count": [1]
+  },
+  {
+    "word": ["@gop"],
+    "count": [1]
+  },
+  {
+    "word": ["elector"],
+    "count": [1]
+  },
+  {
+    "word": ["nevada"],
+    "count": [1]
+  },
+  {
+    "word": ["texa"],
+    "count": [1]
+  },
+  {
+    "word": ["georgia"],
+    "count": [1]
+  },
+  {
+    "word": ["enough"],
+    "count": [1]
+  },
+  {
+    "word": ["#trumpral"],
+    "count": [1]
+  },
+  {
+    "word": ["@chrisevan"],
+    "count": [1]
+  },
+  {
+    "word": ["left"],
+    "count": [1]
+  },
+  {
+    "word": ["applaus"],
+    "count": [1]
+  },
+  {
+    "word": ["i’m"],
+    "count": [1]
+  },
+  {
+    "word": ["9-23"],
+    "count": [1]
+  },
+  {
+    "word": ["hswen"],
+    "count": [1]
+  },
+  {
+    "word": ["traction"],
+    "count": [1]
+  },
+  {
+    "word": ["volum"],
+    "count": [1]
+  },
+  {
+    "word": ["grew"],
+    "count": [1]
+  },
+  {
+    "word": ["closer"],
+    "count": [1]
+  },
+  {
+    "word": ["non-whit"],
+    "count": [1]
+  },
+  {
+    "word": ["insult"],
+    "count": [1]
+  },
+  {
+    "word": ["provok"],
+    "count": [1]
+  },
+  {
+    "word": ["backlash"],
+    "count": [1]
+  },
+  {
+    "word": ["contenti"],
+    "count": [1]
+  },
+  {
+    "word": ["propens"],
+    "count": [1]
+  },
+  {
+    "word": ["underr"],
+    "count": [1]
+  },
+  {
+    "word": ["sky"],
+    "count": [1]
+  },
+  {
+    "word": ["whatev"],
+    "count": [1]
+  },
+  {
+    "word": ["procliv"],
+    "count": [1]
+  },
+  {
+    "word": ["spark"],
+    "count": [1]
+  },
+  {
+    "word": ["effici"],
+    "count": [1]
+  },
+  {
+    "word": ["disinfect"],
+    "count": [1]
+  },
+  {
+    "word": ["cure"],
+    "count": [1]
+  },
+  {
+    "word": ["sars-cov-2"],
+    "count": [1]
+  },
+  {
+    "word": ["china-centr"],
+    "count": [1]
+  },
+  {
+    "word": ["column"],
+    "count": [1]
+  },
+  {
+    "word": ["bad"],
+    "count": [1]
+  },
+  {
+    "word": ["categor"],
+    "count": [1]
+  },
+  {
+    "word": ["partial"],
+    "count": [1]
+  },
+  {
+    "word": ["steer"],
+    "count": [1]
+  },
+  {
+    "word": ["assign"],
+    "count": [1]
+  },
+  {
+    "word": ["cooper"],
+    "count": [1]
+  },
+  {
+    "word": ["distribut"],
+    "count": [1]
+  },
+  {
+    "word": ["elabor"],
+    "count": [1]
+  },
+  {
+    "word": ["scale"],
+    "count": [1]
+  },
+  {
+    "word": ["respect"],
+    "count": [1]
+  },
+  {
+    "word": ["bushfir"],
+    "count": [1]
+  },
+  {
+    "word": ["fake"],
+    "count": [1]
+  },
+  {
+    "word": ["automat"],
+    "count": [1]
+  },
+  {
+    "word": ["rq1"],
+    "count": [1]
+  },
+  {
+    "word": ["rq2"],
+    "count": [1]
+  },
+  {
+    "word": ["rq3"],
+    "count": [1]
+  },
+  {
+    "word": ["accuraci"],
+    "count": [1]
+  },
+  {
+    "word": ["rq4"],
+    "count": [1]
+  },
+  {
+    "word": ["terminolog"],
+    "count": [1]
+  },
+  {
+    "word": ["advic"],
+    "count": [1]
+  },
+  {
+    "word": ["elicit"],
+    "count": [1]
+  },
+  {
+    "word": ["certainti"],
+    "count": [1]
+  },
+  {
+    "word": ["guid"],
+    "count": [1]
+  },
+  {
+    "word": ["cohes"],
+    "count": [1]
+  },
+  {
+    "word": ["complianc"],
+    "count": [1]
+  },
+  {
+    "word": ["demand"],
+    "count": [1]
+  },
+  {
+    "word": ["norm"],
+    "count": [1]
+  },
+  {
+    "word": ["tremend"],
+    "count": [1]
+  },
+  {
+    "word": ["mainstream"],
+    "count": [1]
+  },
+  {
+    "word": ["journalist"],
+    "count": [1]
+  },
+  {
+    "word": ["huge"],
+    "count": [1]
+  },
+  {
+    "word": ["trust"],
+    "count": [1]
+  },
+  {
+    "word": ["great"],
+    "count": [1]
+  },
+  {
+    "word": ["react"],
+    "count": [1]
+  },
+  {
+    "word": ["uproar"],
+    "count": [1]
+  },
+  {
+    "word": ["nonverb"],
+    "count": [1]
+  },
+  {
+    "word": ["adher"],
+    "count": [1]
+  },
+  {
+    "word": ["ideolog"],
+    "count": [1]
+  },
+  {
+    "word": ["racemotiv"],
+    "count": [1]
+  },
+  {
+    "word": ["imped"],
+    "count": [1]
+  },
+  {
+    "word": ["sought"],
+    "count": [1]
+  },
+  {
+    "word": ["two-week"],
+    "count": [1]
+  },
+  {
+    "word": ["onset"],
+    "count": [1]
+  },
+  {
+    "word": ["warn"],
+    "count": [1]
+  },
+  {
+    "word": ["84-year-old"],
+    "count": [1]
+  },
+  {
+    "word": ["tag"],
+    "count": [1]
+  },
+  {
+    "word": ["forum"],
+    "count": [1]
+  },
+  {
+    "word": ["hatr"],
+    "count": [1]
+  },
+  {
+    "word": ["meta-analysi"],
+    "count": [1]
+  },
+  {
+    "word": ["lee"],
+    "count": [1]
+  },
+  {
+    "word": ["ahn"],
+    "count": [1]
+  },
+  {
+    "word": ["antagon"],
+    "count": [1]
+  },
+  {
+    "word": ["hawaiian"],
+    "count": [1]
+  },
+  {
+    "word": ["whiaanhpi"],
+    "count": [1]
+  },
+  {
+    "word": ["infanc"],
+    "count": [1]
+  },
+  {
+    "word": ["viabl"],
+    "count": [1]
+  },
+  {
+    "word": ["enhanc"],
+    "count": [1]
+  },
+  {
+    "word": ["evidencebas"],
+    "count": [1]
+  },
+  {
+    "word": ["connect"],
+    "count": [1]
+  },
+  {
+    "word": ["#metoo"],
+    "count": [1]
+  },
+  {
+    "word": ["#blacklivesmatt"],
+    "count": [1]
+  },
+  {
+    "word": ["incept"],
+    "count": [1]
+  },
+  {
+    "word": ["big"],
+    "count": [1]
+  },
+  {
+    "word": ["eas"],
+    "count": [1]
+  },
+  {
+    "word": ["twitter’"],
+    "count": [1]
+  },
+  {
+    "word": ["taglin"],
+    "count": [1]
+  },
+  {
+    "word": ["what’"],
+    "count": [1]
+  },
+  {
+    "word": ["strateg"],
+    "count": [1]
+  },
+  {
+    "word": ["rich—twitt"],
+    "count": [1]
+  },
+  {
+    "word": ["space"],
+    "count": [1]
+  },
+  {
+    "word": ["viewpoint"],
+    "count": [1]
+  },
+  {
+    "word": ["off-lin"],
+    "count": [1]
+  },
+  {
+    "word": ["conveni"],
+    "count": [1]
+  },
+  {
+    "word": ["hot"],
+    "count": [1]
+  },
+  {
+    "word": ["blind"],
+    "count": [1]
+  },
+  {
+    "word": ["spot"],
+    "count": [1]
+  },
+  {
+    "word": ["aforement"],
+    "count": [1]
+  },
+  {
+    "word": ["featur"],
+    "count": [1]
+  },
+  {
+    "word": ["disclosur"],
+    "count": [1]
+  },
+  {
+    "word": ["hypothes"],
+    "count": [1]
+  },
+  {
+    "word": ["wherev"],
+    "count": [1]
+  },
+  {
+    "word": ["immens"],
+    "count": [1]
+  },
+  {
+    "word": ["complex"],
+    "count": [1]
+  },
+  {
+    "word": ["store"],
+    "count": [1]
+  },
+  {
+    "word": ["stream"],
+    "count": [1]
+  },
+  {
+    "word": ["multi-tab"],
+    "count": [1]
+  },
+  {
+    "word": ["microsoft"],
+    "count": [1]
+  },
+  {
+    "word": ["workbook"],
+    "count": [1]
+  },
+  {
+    "word": ["summari"],
+    "count": [1]
+  },
+  {
+    "word": ["entri"],
+    "count": [1]
+  },
+  {
+    "word": ["favorit"],
+    "count": [1]
+  },
+  {
+    "word": ["softwar"],
+    "count": [1]
+  },
+  {
+    "word": ["pleas"],
+    "count": [1]
+  },
+  {
+    "word": ["bartra"],
+    "count": [1]
+  },
+  {
+    "word": ["user-friend"],
+    "count": [1]
+  },
+  {
+    "word": ["filter"],
+    "count": [1]
+  },
+  {
+    "word": ["publish"],
+    "count": [1]
+  },
+  {
+    "word": ["biden’"],
+    "count": [1]
+  },
+  {
+    "word": ["geograph"],
+    "count": [1]
+  },
+  {
+    "word": ["duplic"],
+    "count": [1]
+  },
+  {
+    "word": ["repli"],
+    "count": [1]
+  },
+  {
+    "word": ["english"],
+    "count": [1]
+  },
+  {
+    "word": ["japanes"],
+    "count": [1]
+  },
+  {
+    "word": ["korean"],
+    "count": [1]
+  },
+  {
+    "word": ["repetit"],
+    "count": [1]
+  },
+  {
+    "word": ["commerci"],
+    "count": [1]
+  },
+  {
+    "word": ["advertis"],
+    "count": [1]
+  },
+  {
+    "word": ["cut"],
+    "count": [1]
+  },
+  {
+    "word": ["unavail"],
+    "count": [1]
+  },
+  {
+    "word": ["met"],
+    "count": [1]
+  },
+  {
+    "word": ["nvivo"],
+    "count": [1]
+  },
+  {
+    "word": ["qsr"],
+    "count": [1]
+  },
+  {
+    "word": ["pti"],
+    "count": [1]
+  },
+  {
+    "word": ["ltd"],
+    "count": [1]
+  },
+  {
+    "word": ["melbourn"],
+    "count": [1]
+  },
+  {
+    "word": ["audio"],
+    "count": [1]
+  },
+  {
+    "word": ["video"],
+    "count": [1]
+  },
+  {
+    "word": ["rigor"],
+    "count": [1]
+  },
+  {
+    "word": ["nuanc"],
+    "count": [1]
+  },
+  {
+    "word": ["scheme"],
+    "count": [1]
+  },
+  {
+    "word": ["theoret"],
+    "count": [1]
+  },
+  {
+    "word": ["len"],
+    "count": [1]
+  },
+  {
+    "word": ["induct"],
+    "count": [1]
+  },
+  {
+    "word": ["coder"],
+    "count": [1]
+  },
+  {
+    "word": ["consensus"],
+    "count": [1]
+  },
+  {
+    "word": ["satur"],
+    "count": [1]
+  },
+  {
+    "word": ["trustworthi"],
+    "count": [1]
+  },
+  {
+    "word": ["audit"],
+    "count": [1]
+  },
+  {
+    "word": ["agreement"],
+    "count": [1]
+  },
+  {
+    "word": ["ethic"],
+    "count": [1]
+  },
+  {
+    "word": ["id"],
+    "count": [1]
+  },
+  {
+    "word": ["undertook"],
+    "count": [1]
+  },
+  {
+    "word": ["paraphras"],
+    "count": [1]
+  },
+  {
+    "word": ["median"],
+    "count": [1]
+  },
+  {
+    "word": ["summar"],
+    "count": [1]
+  },
+  {
+    "word": ["supplementari"],
+    "count": [1]
+  },
+  {
+    "word": ["s1"],
+    "count": [1]
+  },
+  {
+    "word": ["isn’t"],
+    "count": [1]
+  },
+  {
+    "word": ["family’"],
+    "count": [1]
+  },
+  {
+    "word": ["spell"],
+    "count": [1]
+  },
+  {
+    "word": ["bigotri"],
+    "count": [1]
+  },
+  {
+    "word": ["mom"],
+    "count": [1]
+  },
+  {
+    "word": ["told"],
+    "count": [1]
+  },
+  {
+    "word": ["client"],
+    "count": [1]
+  },
+  {
+    "word": ["sad"],
+    "count": [1]
+  },
+  {
+    "word": ["surfac"],
+    "count": [1]
+  },
+  {
+    "word": ["yorker"],
+    "count": [1]
+  },
+  {
+    "word": ["unreport"],
+    "count": [1]
+  },
+  {
+    "word": ["twice"],
+    "count": [1]
+  },
+  {
+    "word": ["curtail"],
+    "count": [1]
+  },
+  {
+    "word": ["burden"],
+    "count": [1]
+  },
+  {
+    "word": ["hinder"],
+    "count": [1]
+  },
+  {
+    "word": ["seek"],
+    "count": [1]
+  },
+  {
+    "word": ["scope"],
+    "count": [1]
+  },
+  {
+    "word": ["pertain"],
+    "count": [1]
+  },
+  {
+    "word": ["self-defens"],
+    "count": [1]
+  },
+  {
+    "word": ["chat"],
+    "count": [1]
+  },
+  {
+    "word": ["patrol"],
+    "count": [1]
+  },
+  {
+    "word": ["neighborhood"],
+    "count": [1]
+  },
+  {
+    "word": ["companion"],
+    "count": [1]
+  },
+  {
+    "word": ["ambassador"],
+    "count": [1]
+  },
+  {
+    "word": ["yellow"],
+    "count": [1]
+  },
+  {
+    "word": ["whistl"],
+    "count": [1]
+  },
+  {
+    "word": ["project"],
+    "count": [1]
+  },
+  {
+    "word": ["dedic"],
+    "count": [1]
+  },
+  {
+    "word": ["join"],
+    "count": [1]
+  },
+  {
+    "word": ["anchor"],
+    "count": [1]
+  },
+  {
+    "word": ["indigen"],
+    "count": [1]
+  },
+  {
+    "word": ["latinx"],
+    "count": [1]
+  },
+  {
+    "word": ["ignor"],
+    "count": [1]
+  },
+  {
+    "word": ["intoler"],
+    "count": [1]
+  },
+  {
+    "word": ["camaraderi"],
+    "count": [1]
+  },
+  {
+    "word": ["artwork"],
+    "count": [1]
+  },
+  {
+    "word": ["comedi"],
+    "count": [1]
+  },
+  {
+    "word": ["poetri"],
+    "count": [1]
+  },
+  {
+    "word": ["uplift"],
+    "count": [1]
+  },
+  {
+    "word": ["be"],
+    "count": [1]
+  },
+  {
+    "word": ["deserv"],
+    "count": [1]
+  },
+  {
+    "word": ["regardless"],
+    "count": [1]
+  },
+  {
+    "word": ["sexual"],
+    "count": [1]
+  },
+  {
+    "word": ["pop"],
+    "count": [1]
+  },
+  {
+    "word": ["crossov"],
+    "count": [1]
+  },
+  {
+    "word": ["appeal"],
+    "count": [1]
+  },
+  {
+    "word": ["#stopasian"],
+    "count": [1]
+  },
+  {
+    "word": ["fund-rais"],
+    "count": [1]
+  },
+  {
+    "word": ["wear"],
+    "count": [1]
+  },
+  {
+    "word": ["gold"],
+    "count": [1]
+  },
+  {
+    "word": ["ribbon"],
+    "count": [1]
+  },
+  {
+    "word": ["d"],
+    "count": [1]
+  },
+  {
+    "word": ["sustain"],
+    "count": [1]
+  },
+  {
+    "word": ["one’"],
+    "count": [1]
+  },
+  {
+    "word": ["ping"],
+    "count": [1]
+  },
+  {
+    "word": ["check"],
+    "count": [1]
+  },
+  {
+    "word": ["bystand"],
+    "count": [1]
+  },
+  {
+    "word": ["xenophob"],
+    "count": [1]
+  },
+  {
+    "word": ["societal-level"],
+    "count": [1]
+  },
+  {
+    "word": ["tide"],
+    "count": [1]
+  },
+  {
+    "word": ["government"],
+    "count": [1]
+  },
+  {
+    "word": ["microaggress"],
+    "count": [1]
+  },
+  {
+    "word": ["guidanc"],
+    "count": [1]
+  },
+  {
+    "word": ["introduc"],
+    "count": [1]
+  },
+  {
+    "word": ["tip"],
+    "count": [1]
+  },
+  {
+    "word": ["reform"],
+    "count": [1]
+  },
+  {
+    "word": ["contextu"],
+    "count": [1]
+  },
+  {
+    "word": ["felt"],
+    "count": [1]
+  },
+  {
+    "word": ["deepli"],
+    "count": [1]
+  },
+  {
+    "word": ["woven"],
+    "count": [1]
+  },
+  {
+    "word": ["fabric"],
+    "count": [1]
+  },
+  {
+    "word": ["profession"],
+    "count": [1]
+  },
+  {
+    "word": ["healthcar"],
+    "count": [1]
+  },
+  {
+    "word": ["empow"],
+    "count": [1]
+  },
+  {
+    "word": ["thrive"],
+    "count": [1]
+  },
+  {
+    "word": ["fought"],
+    "count": [1]
+  },
+  {
+    "word": ["domain"],
+    "count": [1]
+  },
+  {
+    "word": ["matter"],
+    "count": [1]
+  },
+  {
+    "word": ["unheard"],
+    "count": [1]
+  },
+  {
+    "word": ["evidenc"],
+    "count": [1]
+  },
+  {
+    "word": ["nih"],
+    "count": [1]
+  },
+  {
+    "word": ["hhsgov"],
+    "count": [1]
+  },
+  {
+    "word": ["spend"],
+    "count": [1]
+  },
+  {
+    "word": ["dialogu"],
+    "count": [1]
+  },
+  {
+    "word": ["plight"],
+    "count": [1]
+  },
+  {
+    "word": ["prohibit"],
+    "count": [1]
+  },
+  {
+    "word": ["labor"],
+    "count": [1]
+  },
+  {
+    "word": ["page"],
+    "count": [1]
+  },
+  {
+    "word": ["america’"],
+    "count": [1]
+  },
+  {
+    "word": ["ban"],
+    "count": [1]
+  },
+  {
+    "word": ["vincent"],
+    "count": [1]
+  },
+  {
+    "word": ["chin"],
+    "count": [1]
+  },
+  {
+    "word": ["seri"],
+    "count": [1]
+  },
+  {
+    "word": ["documentari"],
+    "count": [1]
+  },
+  {
+    "word": ["famili"],
+    "count": [1]
+  },
+  {
+    "word": ["quint"],
+    "count": [1]
+  },
+  {
+    "word": ["hardship"],
+    "count": [1]
+  },
+  {
+    "word": ["resurfac"],
+    "count": [1]
+  },
+  {
+    "word": ["epidemic-provok"],
+    "count": [1]
+  },
+  {
+    "word": ["alon"],
+    "count": [1]
+  },
+  {
+    "word": ["girl"],
+    "count": [1]
+  },
+  {
+    "word": ["covid-19-rel"],
+    "count": [1]
+  },
+  {
+    "word": ["sleep"],
+    "count": [1]
+  },
+  {
+    "word": ["chronic"],
+    "count": [1]
+  },
+  {
+    "word": ["induc"],
+    "count": [1]
+  },
+  {
+    "word": ["post-traumat"],
+    "count": [1]
+  },
+  {
+    "word": ["disord"],
+    "count": [1]
+  },
+  {
+    "word": ["blood"],
+    "count": [1]
+  },
+  {
+    "word": ["diabet"],
+    "count": [1]
+  },
+  {
+    "word": ["inflamm"],
+    "count": [1]
+  },
+  {
+    "word": ["ill"],
+    "count": [1]
+  },
+  {
+    "word": ["straightforward"],
+    "count": [1]
+  },
+  {
+    "word": ["deliv"],
+    "count": [1]
+  },
+  {
+    "word": ["one-on-on"],
+    "count": [1]
+  },
+  {
+    "word": ["psychoeduc"],
+    "count": [1]
+  },
+  {
+    "word": ["workshop"],
+    "count": [1]
+  },
+  {
+    "word": ["psychologist"],
+    "count": [1]
+  },
+  {
+    "word": ["patholog"],
+    "count": [1]
+  },
+  {
+    "word": ["cheng"],
+    "count": [1]
+  },
+  {
+    "word": ["synergist"],
+    "count": [1]
+  },
+  {
+    "word": ["resili"],
+    "count": [1]
+  },
+  {
+    "word": ["lyu"],
+    "count": [1]
+  },
+  {
+    "word": ["upstream"],
+    "count": [1]
+  },
+  {
+    "word": ["k–12"],
+    "count": [1]
+  },
+  {
+    "word": ["exemplari"],
+    "count": [1]
+  },
+  {
+    "word": ["equit"],
+    "count": [1]
+  },
+  {
+    "word": ["midwest"],
+    "count": [1]
+  },
+  {
+    "word": ["taught"],
+    "count": [1]
+  },
+  {
+    "word": ["nurs"],
+    "count": [1]
+  },
+  {
+    "word": ["mainten"],
+    "count": [1]
+  },
+  {
+    "word": ["sector"],
+    "count": [1]
+  },
+  {
+    "word": ["corpor"],
+    "count": [1]
+  },
+  {
+    "word": ["hire"],
+    "count": [1]
+  },
+  {
+    "word": ["voter"],
+    "count": [1]
+  },
+  {
+    "word": ["turnout"],
+    "count": [1]
+  },
+  {
+    "word": ["showcas"],
+    "count": [1]
+  },
+  {
+    "word": ["amid"],
+    "count": [1]
+  },
+  {
+    "word": ["illus"],
+    "count": [1]
+  },
+  {
+    "word": ["wu"],
+    "count": [1]
+  },
+  {
+    "word": ["youth"],
+    "count": [1]
+  },
+  {
+    "word": ["distrust"],
+    "count": [1]
+  },
+  {
+    "word": ["status"],
+    "count": [1]
+  },
+  {
+    "word": ["deterr"],
+    "count": [1]
+  },
+  {
+    "word": ["agenc"],
+    "count": [1]
+  },
+  {
+    "word": ["aggreg"],
+    "count": [1]
+  },
+  {
+    "word": ["lump"],
+    "count": [1]
+  },
+  {
+    "word": ["obscur"],
+    "count": [1]
+  },
+  {
+    "word": ["minorit"],
+    "count": [1]
+  },
+  {
+    "word": ["english-languag"],
+    "count": [1]
+  },
+  {
+    "word": ["unabl"],
+    "count": [1]
+  },
+  {
+    "word": ["well-educ"],
+    "count": [1]
+  },
+  {
+    "word": ["mobil"],
+    "count": [1]
+  },
+  {
+    "word": ["whose"],
+    "count": [1]
+  },
+  {
+    "word": ["inaccess"],
+    "count": [1]
+  },
+  {
+    "word": ["comfort"],
+    "count": [1]
+  },
+  {
+    "word": ["sphere"],
+    "count": [1]
+  },
+  {
+    "word": ["in-person"],
+    "count": [1]
+  },
+  {
+    "word": ["fifth"],
+    "count": [1]
+  },
+  {
+    "word": ["suffici"],
+    "count": [1]
+  },
+  {
+    "word": ["riddl"],
+    "count": [1]
+  },
+  {
+    "word": ["computer-gener"],
+    "count": [1]
+  },
+  {
+    "word": ["spam"],
+    "count": [1]
+  },
+  {
+    "word": ["misspel"],
+    "count": [1]
+  },
+  {
+    "word": ["unorthodox"],
+    "count": [1]
+  },
+  {
+    "word": ["abbrevi"],
+    "count": [1]
+  },
+  {
+    "word": ["sixth"],
+    "count": [1]
+  },
+  {
+    "word": ["short"],
+    "count": [1]
+  },
+  {
+    "word": ["best"],
+    "count": [1]
+  },
+  {
+    "word": ["people’"],
+    "count": [1]
+  },
+  {
+    "word": ["dynam"],
+    "count": [1]
+  },
+  {
+    "word": ["discours"],
+    "count": [1]
+  },
+  {
+    "word": ["valid"],
+    "count": [1]
+  },
+  {
+    "word": ["explor"],
+    "count": [1]
+  },
+  {
+    "word": ["translat"],
+    "count": [1]
+  },
+  {
+    "word": ["warrant"],
+    "count": [1]
+  },
+  {
+    "word": ["swallow"],
+    "count": [1]
+  },
+  {
+    "word": ["bitter"],
+    "count": [1]
+  },
+  {
+    "word": ["#rise"],
+    "count": [1]
+  },
+  {
+    "word": ["#seeusunit"],
+    "count": [1]
+  },
+  {
+    "word": ["deliveri"],
+    "count": [1]
+  },
+  {
+    "word": ["inequ"],
+    "count": [1]
+  },
+  {
+    "word": ["distress"],
+    "count": [1]
+  },
+  {
+    "word": ["multiprong"],
+    "count": [1]
+  },
+  {
+    "word": ["broaden"],
+    "count": [1]
+  },
+  {
+    "word": ["tougher"],
+    "count": [1]
+  },
+  {
+    "word": ["inspir"],
+    "count": [1]
+  },
+  {
+    "word": ["piec"],
+    "count": [1]
+  },
+  {
+    "word": ["policymak"],
+    "count": [1]
+  },
+  {
+    "word": ["philanthropist"],
+    "count": [1]
+  },
+  {
+    "word": ["decision-mak"],
+    "count": [1]
+  },
+  {
+    "word": ["far-reach"],
+    "count": [1]
+  },
+  {
+    "word": ["alter"],
+    "count": [1]
+  },
+  {
+    "word": ["robert"],
+    "count": [1]
+  },
+  {
+    "word": ["dusetzina"],
+    "count": [1]
+  },
+  {
+    "word": ["alata"],
+    "count": [1]
+  },
+  {
+    "word": ["jackson"],
+    "count": [1]
+  },
+  {
+    "word": ["darrow"],
+    "count": [1]
+  },
+  {
+    "word": ["austin"],
+    "count": [1]
+  },
+  {
+    "word": ["garthwait"],
+    "count": [1]
+  },
+  {
+    "word": ["moor"],
+    "count": [1]
+  },
+  {
+    "word": ["chou"],
+    "count": [1]
+  },
+  {
+    "word": ["xiong"],
+    "count": [1]
+  },
+  {
+    "word": ["extend"],
+    "count": [1]
+  },
+  {
+    "word": ["answer"],
+    "count": [1]
+  },
+  {
+    "word": ["ongo"],
+    "count": [1]
+  },
+  {
+    "word": ["perhap"],
+    "count": [1]
+  },
+  {
+    "word": ["storm"],
+    "count": [1]
+  },
+  {
+    "word": ["suspens"],
+    "count": [1]
+  },
+  {
+    "word": ["needleman"],
+    "count": [1]
+  },
+  {
+    "word": ["snapchat"],
+    "count": [1]
+  },
+  {
+    "word": ["twitch"],
+    "count": [1]
+  },
+  {
+    "word": ["tyko"],
+    "count": [1]
+  },
+  {
+    "word": ["lenienc"],
+    "count": [1]
+  },
+  {
+    "word": ["expert"],
+    "count": [1]
+  },
+  {
+    "word": ["reced"],
+    "count": [1]
+  },
+  {
+    "word": ["meantim"],
+    "count": [1]
+  },
+  {
+    "word": ["court"],
+    "count": [1]
+  },
+  {
+    "word": ["ground"],
+    "count": [1]
+  },
+  {
+    "word": ["unfair"],
+    "count": [1]
+  },
+  {
+    "word": ["censorship"],
+    "count": [1]
+  },
+  {
+    "word": ["isaac"],
+    "count": [1]
+  },
+  {
+    "word": ["frenkel"],
+    "count": [1]
+  },
+  {
+    "word": ["polantz"],
+    "count": [1]
+  },
+  {
+    "word": ["infeas"],
+    "count": [1]
+  },
+  {
+    "word": ["disentangl"],
+    "count": [1]
+  },
+  {
+    "word": ["hill"],
+    "count": [1]
+  },
+  {
+    "word": ["volatil"],
+    "count": [1]
+  },
+  {
+    "word": ["child"],
+    "count": [1]
+  },
+  {
+    "word": ["jeung"],
+    "count": [1]
+  },
+  {
+    "word": ["causal"],
+    "count": [1]
+  },
+  {
+    "word": ["rwanda"],
+    "count": [1]
+  },
+  {
+    "word": ["extermin"],
+    "count": [1]
+  },
+  {
+    "word": ["tutsi"],
+    "count": [1]
+  },
+  {
+    "word": ["militia"],
+    "count": [1]
+  },
+  {
+    "word": ["yanagizawa-drott"],
+    "count": [1]
+  },
+  {
+    "word": ["anti-semit"],
+    "count": [1]
+  },
+  {
+    "word": ["pro-nazi"],
+    "count": [1]
+  },
+  {
+    "word": ["adena"],
+    "count": [1]
+  },
+  {
+    "word": ["fiction"],
+    "count": [1]
+  },
+  {
+    "word": ["kkk"],
+    "count": [1]
+  },
+  {
+    "word": ["film"],
+    "count": [1]
+  },
+  {
+    "word": ["birth"],
+    "count": [1]
+  },
+  {
+    "word": ["lynch"],
+    "count": [1]
+  },
+  {
+    "word": ["riot"],
+    "count": [1]
+  },
+  {
+    "word": ["20th"],
+    "count": [1]
+  },
+  {
+    "word": ["ang"],
+    "count": [1]
+  },
+  {
+    "word": ["penetr"],
+    "count": [1]
+  },
+  {
+    "word": ["remaind"],
+    "count": [1]
+  },
+  {
+    "word": ["saw"],
+    "count": [1]
+  },
+  {
+    "word": ["segment"],
+    "count": [1]
+  },
+  {
+    "word": ["webpag"],
+    "count": [1]
+  },
+  {
+    "word": ["layout"],
+    "count": [1]
+  },
+  {
+    "word": ["visitor"],
+    "count": [1]
+  },
+  {
+    "word": ["a1"],
+    "count": [1]
+  },
+  {
+    "word": ["zip"],
+    "count": [1]
+  },
+  {
+    "word": ["contact"],
+    "count": [1]
+  },
+  {
+    "word": ["subcategori"],
+    "count": [1]
+  },
+  {
+    "word": ["compris"],
+    "count": [1]
+  },
+  {
+    "word": ["deliber"],
+    "count": [1]
+  },
+  {
+    "word": ["cough"],
+    "count": [1]
+  },
+  {
+    "word": ["spat"],
+    "count": [1]
+  },
+  {
+    "word": ["transit"],
+    "count": [1]
+  },
+  {
+    "word": ["transport"],
+    "count": [1]
+  },
+  {
+    "word": ["ride-shar"],
+    "count": [1]
+  },
+  {
+    "word": ["key"],
+    "count": [1]
+  },
+  {
+    "word": ["usual"],
+    "count": [1]
+  },
+  {
+    "word": ["underst"],
+    "count": [1]
+  },
+  {
+    "word": ["proxi"],
+    "count": [1]
+  },
+  {
+    "word": ["data—and"],
+    "count": [1]
+  },
+  {
+    "word": ["analyses—in"],
+    "count": [1]
+  },
+  {
+    "word": ["us-bas"],
+    "count": [1]
+  },
+  {
+    "word": ["trends4"],
+    "count": [1]
+  },
+  {
+    "word": ["subsect"],
+    "count": [1]
+  },
+  {
+    "word": ["count"],
+    "count": [1]
+  },
+  {
+    "word": ["a3"],
+    "count": [1]
+  },
+  {
+    "word": ["a4"],
+    "count": [1]
+  },
+  {
+    "word": ["bar"],
+    "count": [1]
+  },
+  {
+    "word": ["gray"],
+    "count": [1]
+  },
+  {
+    "word": ["restaur"],
+    "count": [1]
+  },
+  {
+    "word": ["purpl"],
+    "count": [1]
+  },
+  {
+    "word": ["colour"],
+    "count": [1]
+  },
+  {
+    "word": ["legend"],
+    "count": [1]
+  },
+  {
+    "word": ["version"],
+    "count": [1]
+  },
+  {
+    "word": ["late"],
+    "count": [1]
+  },
+  {
+    "word": ["fall"],
+    "count": [1]
+  },
+  {
+    "word": ["alreadi"],
+    "count": [1]
+  },
+  {
+    "word": ["fallen"],
+    "count": [1]
+  },
+  {
+    "word": ["steadi"],
+    "count": [1]
+  },
+  {
+    "word": ["light"],
+    "count": [1]
+  },
+  {
+    "word": ["aftermath"],
+    "count": [1]
+  },
+  {
+    "word": ["vari"],
+    "count": [1]
+  },
+  {
+    "word": ["state-specif"],
+    "count": [1]
+  },
+  {
+    "word": ["intens"],
+    "count": [1]
+  },
+  {
+    "word": ["onslaught"],
+    "count": [1]
+  },
+  {
+    "word": ["fault"],
+    "count": [1]
+  },
+  {
+    "word": ["border"],
+    "count": [1]
+  },
+  {
+    "word": ["defens"],
+    "count": [1]
+  },
+  {
+    "word": ["wojcik"],
+    "count": [1]
+  },
+  {
+    "word": ["expos"],
+    "count": [1]
+  },
+  {
+    "word": ["coverag"],
+    "count": [1]
+  },
+  {
+    "word": ["his-tweet"],
+    "count": [1]
+  },
+  {
+    "word": ["exceed"],
+    "count": [1]
+  },
+  {
+    "word": ["time—in"],
+    "count": [1]
+  },
+  {
+    "word": ["taskforc"],
+    "count": [1]
+  },
+  {
+    "word": ["conference—and"],
+    "count": [1]
+  },
+  {
+    "word": ["photo"],
+    "count": [1]
+  },
+  {
+    "word": ["cross"],
+    "count": [1]
+  },
+  {
+    "word": ["replac"],
+    "count": [1]
+  },
+  {
+    "word": ["smith"],
+    "count": [1]
+  },
+  {
+    "word": ["web-bas"],
+    "count": [1]
+  },
+  {
+    "word": ["apex"],
+    "count": [1]
+  },
+  {
+    "word": ["coincident"],
+    "count": [1]
+  },
+  {
+    "word": ["session"],
+    "count": [1]
+  },
+  {
+    "word": ["less-frequ"],
+    "count": [1]
+  },
+  {
+    "word": ["a7"],
+    "count": [1]
+  },
+  {
+    "word": ["preced"],
+    "count": [1]
+  },
+  {
+    "word": ["reson"],
+    "count": [1]
+  },
+  {
+    "word": ["squar"],
+    "count": [1]
+  },
+  {
+    "word": ["cumul"],
+    "count": [1]
+  },
+  {
+    "word": ["omit"],
+    "count": [1]
+  },
+  {
+    "word": ["fluctuat"],
+    "count": [1]
+  },
+  {
+    "word": ["triangl"],
+    "count": [1]
+  },
+  {
+    "word": ["zero"],
+    "count": [1]
+  },
+  {
+    "word": ["pre-tweet"],
+    "count": [1]
+  },
+  {
+    "word": ["lesser"],
+    "count": [1]
+  },
+  {
+    "word": ["plus"],
+    "count": [1]
+  },
+  {
+    "word": ["fourteen"],
+    "count": [1]
+  },
+  {
+    "word": ["databas"],
+    "count": [1]
+  },
+  {
+    "word": ["confid"],
+    "count": [1]
+  },
+  {
+    "word": ["interv"],
+    "count": [1]
+  },
+  {
+    "word": ["two-way"],
+    "count": [1]
+  },
+  {
+    "word": ["standard-error"],
+    "count": [1]
+  },
+  {
+    "word": ["cluster"],
+    "count": [1]
+  },
+  {
+    "word": ["cameron"],
+    "count": [1]
+  },
+  {
+    "word": ["split"],
+    "count": [1]
+  },
+  {
+    "word": ["illustr"],
+    "count": [1]
+  },
+  {
+    "word": ["otherwis"],
+    "count": [1]
+  },
+  {
+    "word": ["slight"],
+    "count": [1]
+  },
+  {
+    "word": ["fell"],
+    "count": [1]
+  },
+  {
+    "word": ["parallel"],
+    "count": [1]
+  },
+  {
+    "word": ["a12"],
+    "count": [1]
+  },
+  {
+    "word": ["littl"],
+    "count": [1]
+  },
+  {
+    "word": ["a15"],
+    "count": [1]
+  },
+  {
+    "word": ["oppos"],
+    "count": [1]
+  },
+  {
+    "word": ["twitter-usag"],
+    "count": [1]
+  },
+  {
+    "word": ["generous"],
+    "count": [1]
+  },
+  {
+    "word": ["imperfect"],
+    "count": [1]
+  },
+  {
+    "word": ["nexi"],
+    "count": [1]
+  },
+  {
+    "word": ["uni"],
+    "count": [1]
+  },
+  {
+    "word": ["lexisnexi"],
+    "count": [1]
+  },
+  {
+    "word": ["academ"],
+    "count": [1]
+  },
+  {
+    "word": ["depict"],
+    "count": [1]
+  },
+  {
+    "word": ["infrequ"],
+    "count": [1]
+  },
+  {
+    "word": ["tv"],
+    "count": [1]
+  },
+  {
+    "word": ["wire"],
+    "count": [1]
+  },
+  {
+    "word": ["gradual"],
+    "count": [1]
+  },
+  {
+    "word": ["red"],
+    "count": [1]
+  },
+  {
+    "word": ["vertic"],
+    "count": [1]
+  },
+  {
+    "word": ["drawn"],
+    "count": [1]
+  },
+  {
+    "word": ["transcript"],
+    "count": [1]
+  },
+  {
+    "word": ["a16"],
+    "count": [1]
+  },
+  {
+    "word": ["frequenc"],
+    "count": [1]
+  },
+  {
+    "word": ["a17"],
+    "count": [1]
+  },
+  {
+    "word": ["confound"],
+    "count": [1]
+  },
+  {
+    "word": ["robust"],
+    "count": [1]
+  },
+  {
+    "word": ["county-day"],
+    "count": [1]
+  },
+  {
+    "word": ["more-gener"],
+    "count": [1]
+  },
+  {
+    "word": ["covid-19—perhap"],
+    "count": [1]
+  },
+  {
+    "word": ["sources—may"],
+    "count": [1]
+  },
+  {
+    "word": ["somewhat"],
+    "count": [1]
+  },
+  {
+    "word": ["regular"],
+    "count": [1]
+  },
+  {
+    "word": ["standard"],
+    "count": [1]
+  },
+  {
+    "word": ["short-term"],
+    "count": [1]
+  },
+  {
+    "word": ["detect"],
+    "count": [1]
+  },
+  {
+    "word": ["meaning"],
+    "count": [1]
+  },
+  {
+    "word": ["long-run"],
+    "count": [1]
+  },
+  {
+    "word": ["core"],
+    "count": [1]
+  },
+  {
+    "word": ["longer"],
+    "count": [1]
+  },
+  {
+    "word": ["novel"],
+    "count": [1]
+  },
+  {
+    "word": ["assum"],
+    "count": [1]
+  },
+  {
+    "word": ["uncorrel"],
+    "count": [1]
+  },
+  {
+    "word": ["conserv"],
+    "count": [1]
+  },
+  {
+    "word": ["error"],
+    "count": [1]
+  },
+  {
+    "word": ["largest"],
+    "count": [1]
+  },
+  {
+    "word": ["a18"],
+    "count": [1]
+  },
+  {
+    "word": ["opposit"],
+    "count": [1]
+  },
+  {
+    "word": ["amongst"],
+    "count": [1]
+  },
+  {
+    "word": ["more-liber"],
+    "count": [1]
+  },
+  {
+    "word": ["exact"],
+    "count": [1]
+  },
+  {
+    "word": ["ging"],
+    "count": [1]
+  },
+  {
+    "word": ["atran"],
+    "count": [1]
+  },
+  {
+    "word": ["fisk"],
+    "count": [1]
+  },
+  {
+    "word": ["rai"],
+    "count": [1]
+  },
+  {
+    "word": ["loss"],
+    "count": [1]
+  },
+  {
+    "word": ["self-control"],
+    "count": [1]
+  },
+  {
+    "word": ["regret"],
+    "count": [1]
+  },
+  {
+    "word": ["dollard"],
+    "count": [1]
+  },
+  {
+    "word": ["baumeist"],
+    "count": [1]
+  },
+  {
+    "word": ["heatherton"],
+    "count": [1]
+  },
+  {
+    "word": ["card"],
+    "count": [1]
+  },
+  {
+    "word": ["dahl"],
+    "count": [1]
+  },
+  {
+    "word": ["embolden"],
+    "count": [1]
+  },
+  {
+    "word": ["tacit"],
+    "count": [1]
+  },
+  {
+    "word": ["condon"],
+    "count": [1]
+  },
+  {
+    "word": ["newman"],
+    "count": [1]
+  },
+  {
+    "word": ["grover"],
+    "count": [1]
+  },
+  {
+    "word": ["reni"],
+    "count": [1]
+  },
+  {
+    "word": ["barreto"],
+    "count": [1]
+  },
+  {
+    "word": ["peer"],
+    "count": [1]
+  },
+  {
+    "word": ["sacerdot"],
+    "count": [1]
+  },
+  {
+    "word": ["extens"],
+    "count": [1]
+  },
+  {
+    "word": ["high-frequ"],
+    "count": [1]
+  },
+  {
+    "word": ["concentr"],
+    "count": [1]
+  },
+  {
+    "word": ["vast"],
+    "count": [1]
+  },
+  {
+    "word": ["underscor"],
+    "count": [1]
+  },
+  {
+    "word": ["bodi"],
+    "count": [1]
+  },
+  {
+    "word": ["populist"],
+    "count": [1]
+  },
+  {
+    "word": ["antisoci"],
+    "count": [1]
+  }
+]

@@ -110,92 +110,16 @@
        </div>
       </div>
      </div>
-
-<div class="col-sm-12 space_all">
-    <div class="col-sm-4 space_all">
-        <div class="about_3">
-            <ul>
-            </ul>
-        </div>
-    </div>
-    <div class="col-sm-12 pull clearfix space_all">
-        <div class="col-sm-7 pull space_all">
-            <div class="about_inner">
-                <!-- Embed the plotly graph here -->
-                <div id="plotly-graph"></div>
-            </div>
-            <div class="about_inner_1" id="textBox">
-                <h2>VADER</h2>
-                <ul style="list-style-type: disc; font-size: 20px;">
-                    <li>Analyze sentiment for social media​</li>
-                    <li>Handles slang and nuance well​</li>
-                    <li>Immediate deployment with efficient analysis​</li>
-                    <li>Not as suitable for politician speeches</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-5 pull">
-        </div>
-    </div>
-</div>
-
-<script>
-  // Data for the graph
-  var data = [
-    {
-      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
-      y: [0.72, 0.55, 0.87, 0.66],
-      type: 'bar',
-      name: 'Positive',
-      marker: {color: 'rgba(0, 159, 0, 0.25)', line: {color: 'rgba(0, 159, 0, 0.60)', width: 1.5}}
-    },
-    {
-      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
-      y: [0.07, 0.08, 0.05, 0.08],
-      type: 'bar',
-      name: 'Neutral',
-      marker: {color: 'rgba(0, 0, 0, 0.25)', line: {color: 'rgba(0, 0, 0, 0.60)', width: 1.5}}
-    },
-    {
-      x: ['Trump Immigration', 'Biden Immigration', 'Trump Inflation', 'Biden Inflation'],
-      y: [0.21, 0.38, 0.09, 0.27],
-      type: 'bar',
-      name: 'Negative',
-      marker: {color: 'rgba(159, 0, 0, 0.25)', line: {color: 'rgba(159, 0, 0, 0.60)', width: 1.5}}
-    }
-  ];
-
-  // Layout for the graph
-  var layout = {
-    xaxis: {title: 'President and Topic'},
-    yaxis: {title: 'Sentiment Percentage'},
-    barmode: 'stack'
-  };
-
-  // Create the plotly graph
-  Plotly.newPlot('plotly-graph', data, layout);
-</script>
-	  
-   <div class="col-sm-12 space_all">
-    <div class="col-sm-4 space_all">
-	 <div class="about_3">
-	  <ul>
-	    
-	  </ul>
-	  
-	 </div>
-	</div>
 	<div class="col-sm-12 pull clearfix space_all">
 		<div class="col-sm-7 pull space_all">
 		  <div class="about_inner">
-			<img src="img/40.jpg">
+			<img src="img/raw_f0.png">
 		  </div>
 		  <div class="about_inner_1" id="textBox">
 			<h2>Dictionary</h2>
 			<ul style="list-style-type: disc; font-size: 20px;">
-			  <li>Uses pre-computed sentiment scores for each word​​</li>
-			  <li>Very simple to implement​​</li>
-			  <li>Only analyzes at word level, misses nuance​​</li>
+			  <li>Vocal pitch, also known as the fundamental frequency (F0), has been found to reflect the emotional state and intensity of a speaker.​​</li>
+        <li>Result 1: Trump displays higher intensity in his speeches relative to Clinton, implying more heated rhetoric.​​​</li>
 			</ul>
 		  </div>
 		</div>
