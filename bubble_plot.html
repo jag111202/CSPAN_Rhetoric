@@ -12,14 +12,14 @@
 
         /* Style the text inside bubbles */
         .bubble-label {
-            fill: white;
-            font-size: 12px;
+            fill: black; /* Text color */
+            font-size: 14px; /* Increased font size */
             text-anchor: middle;
         }
 
         /* Style the SVG container */
         #bubble-chart {
-            background-color: #333333; /* Dark gray background color */
+            background-color: white; /* White background color */
         }
     </style>
 </head>
@@ -32,7 +32,7 @@
         d3.json('word_counts.json')
             .then(data => {
                 // Set up dimensions and margins for the chart
-                var margin = { top: 20, right: 20, bottom: 70, left: 40 },
+                var margin = { top: 50, right: 20, bottom: 70, left: 40 }, // Increased top margin
                     width = 800 - margin.left - margin.right,
                     height = 600 - margin.top - margin.bottom;
 
@@ -48,12 +48,12 @@
                 // Scale for circle sizes
                 var radiusScale = d3.scaleSqrt()
                     .domain([0, d3.max(counts)])
-                    .range([2, 30]); // Adjust the range for circle sizes
+                    .range([10, 50]); // Adjust the range for circle sizes
 
-                // Scale for colors based on counts
-                var colorScale = d3.scaleSequential()
+                // Custom color scale for different sized bubbles
+                var colorScale = d3.scaleQuantize()
                     .domain([0, d3.max(counts)])
-                    .interpolator(d3.interpolateViridis); // Use Viridis color scale
+                    .range(['#c6dbef', '#9ecae1', '#6baed6', '#4292c6', '#2171b5', '#08519c', '#008080']); // Light blue to dark blue
 
                 // Create nodes for the force simulation
                 var nodes = data.map((d, i) => ({
@@ -66,10 +66,10 @@
 
                 // Create force simulation
                 var simulation = d3.forceSimulation(nodes)
-                    .force('charge', d3.forceManyBody().strength(-10))
+                    .force('charge', d3.forceManyBody().strength(-50)) // Decreased repulsion strength
                     .force('x', d3.forceX().strength(0.05).x(width / 2))
                     .force('y', d3.forceY().strength(0.05).y(height / 2))
-                    .force('collision', d3.forceCollide().radius(d => d.radius + 2).strength(1))
+                    .force('collision', d3.forceCollide().radius(d => d.radius + 5).strength(1)) // Increased bubble separation
                     .on('tick', ticked);
 
                 // Create circles (bubbles)
@@ -91,7 +91,8 @@
                     .attr('dy', '.3em')
                     .attr('text-anchor', 'middle')
                     .style('pointer-events', 'none') // Make sure labels don't interfere with dragging
-                    .text(d => d.word);
+                    .text(d => d.word + " (" + d.count + ")")
+                    .style('fill', 'black'); // Text color
 
                 // Handle mouse over event
                 function handleMouseOver(event, d) {
