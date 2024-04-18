@@ -1,5 +1,5 @@
 /*
-Template Name:Scientific Zone
+Template Name:CSPAN Rhetoric
 File: Layout CSS
 Author: Templates On Web
 Author URI: http://templateonweb.com/
@@ -2244,27 +2244,34 @@ margin-bottom: 0px;
   display: inline-block;
   vertical-align: top;
 }
-.about_inner_12 {
-  position: absolute;
-  background: #d6362a;
-  border: 1px solid #d6362a;
-  width: 70%;
-  left: 140%;
-  top: 0;
-  padding: 2em;
-  color: #fff;
-  box-sizing: border-box;
+#contentWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse; /* Reverse the order on wrapping */
 }
+
+#plotWrapper {
+  flex: 1; /* Occupy remaining space */
+}
+
 .about_inner_1 {
-  position: absolute;
   background: #414547;
   border: 1px solid #414547;
-  width: 70%;
-  left: 110%;
-  top: 0;
   padding: 2em;
   color: #fff;
   box-sizing: border-box;
+  flex-basis: calc(50% - 20px); /* 50% width with space for margin */
+  margin: 10px; /* Margin for spacing */
+}
+
+@media (max-width: 768px) {
+  #contentWrapper {
+    flex-direction: column; /* Switch to column layout on smaller screens */
+  }
+
+  .about_inner_1 {
+    flex-basis: 100%; /* Take full width on smaller screens */
+  }
 }
 
 .about_inner_1 h2 {
@@ -2282,12 +2289,12 @@ margin-bottom: 0px;
 }
 
 @media (max-width: 768px) {
-  .about_inner_1 {
+  .about_inner_12 {
     width: 100%;
-    left: 0;
-    margin-top: 20px;
+    margin-top: 20px; /* Adjust margin as needed */
   }
 }
+
  /* Button styling */
  .expand-button {
   display: inline-block;

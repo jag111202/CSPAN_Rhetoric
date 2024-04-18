@@ -77,38 +77,26 @@
 	<p>It is easy for one to see that rhetoric has become more heated, but trying to observe such changes requires a clear definition of “sentiment.” Unfortunately, the number of definitions for this concept approximates the number of tools, so it is difficult to say which definition is best.​
 		"Vader" and "TextBlob" may sound like movie titles, but the way they help analyze sentiment is very real. Comparing these methods to traditional dictionary-based approaches gives the sentiment analysis sub-team a clearer picture of polarization on Capitol Hill.​​</p>
    </div>
-   <div class="col-sm-12 space_all">
-    <div class="col-sm-4 space_all">
-        <div class="about_3">
-            <ul>
+   <div class="col-sm-12 pull clearfix space_all">
+    <div class="col-sm-7 pull space_all">
+        <div class="about_inner">
+            <!-- Embed the plotly graph here -->
+            <div id="plot"></div>
+        </div>
+        <div class="about_inner_1" id="textBox">
+            <h2>TextBlob</h2>
+            <ul style="list-style-type: disc; font-size: 20px;">
+                <li>Uses NLP techniques to compute subjectivity and polarity</li>
+                <li>Has use cases beyond sentiment</li>
+                <li>Easy to use but slow</li>
             </ul>
         </div>
     </div>
-    <div class="col-sm-12 space_all">
-      <div class="col-sm-4 space_all">
-          <div class="about_3">
-              <ul>
-              </ul>
-          </div>
-      </div>
-      <div class="col-sm-12 pull clearfix space_all">
-          <div class="col-sm-7 pull space_all">
-              <div class="about_inner">
-                  <!-- Embed the plotly graph here -->
-                  <div id="plot"></div>
-              </div>
-              <div class="about_inner_1" id="textBox">
-                <h2>TextBlob</h2>
-                <ul style="list-style-type: disc; font-size: 20px;">
-                  <li>Uses NLP techniques to compute subjectivity and polarity</li>
-                  <li>Has use cases beyond sentiment</li>
-                  <li>Easy to use but slow</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-5 pull">
-        </div>
+    <div class="col-sm-5 pull">
+        <!--Your content for the right column, if any-->
     </div>
+</div>
+
 </div>
 
 <script>
@@ -126,13 +114,13 @@
         automargin: true, // Automatically adjust margin to fit labels
       },
       violinmode: "group",
-      width: 700, // Adjusted width
-      height: 480, // Adjusted height
+      width: 800, // Adjusted width
+      height: 600, // Adjusted height
       margin: {
-        l: 80, // Left margin
-        r: 20, // Right margin
-        t: 80, // Top margin
-        b: 80, // Bottom margin
+        l: 40, // Left margin
+        r: 10, // Right margin
+        t: 40, // Top margin
+        b: 40, // Bottom margin
       },
     };
 
