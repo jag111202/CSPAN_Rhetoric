@@ -176,7 +176,139 @@
       
 </body>
 </html>
+<body>
+  <div class="col-sm-12 pull clearfix space_all">
+      <div class="col-sm-7 pull space_all">
+          <div class="about_inner">
+              <!-- SVG container for the chart -->
+              <svg id="bubble-chart-2" width="695" height="452"></svg>
+          </div>
+          <div class="about_inner_1" id="textBox">
+              <h2>This word bubble shows the wordcount of specific key terms in the articles:</h2>
+              <ul style="list-style-type: disc; font-size: 20px;">
+                  <li>"Racism and Structural Violence: Interconnected Threats to Health Equity"​</li>
+                  <li>"Discrimination in the United States: Experiences of black Americans"​</li>
+                  <li>"BLACK LIVES MATTER PROTESTS AND RACIAL HATE CRIME IN THE UNITED STATES".​​</li>
+              </ul>
+          </div>
+      </div>
+      <div class="col-sm-5 pull">
+      </div>
+  </div>
 
+  <script>
+      // Fetch JSON data
+      d3.json('word_counts_Black_Lives.json')
+          .then(data => {
+              // Set up dimensions and margins for the chart
+              var margin = { top: 50, right: 20, bottom: 70, left: 40 }, // Adjusted margins
+                  width = 695 - margin.left - margin.right,
+                  height = 452 - margin.top - margin.bottom;
+
+              // Create SVG element
+              var svg = d3.select('#bubble-chart-2')
+                  .attr('width', width + margin.left + margin.right)
+                  .attr('height', height + margin.top + margin.bottom);
+
+              // Extracting data
+              var words = data.map(entry => entry.word);
+              var counts = data.map(entry => entry.count);
+
+              // Scale for circle sizes
+              var radiusScale = d3.scaleSqrt()
+                  .domain([0, d3.max(counts)])
+                  .range([15, 40]); // Adjusted range for smaller bubble sizes
+
+              // Custom color scale for different sized bubbles
+              var colorScale = d3.scaleQuantize()
+                  .domain([0, d3.max(counts)])
+                  .range(['#c6dbef', '#9ecae1', '#6baed6', '#4292c6', '#2171b5', '#08519c', '#008080']); // Light blue to dark blue
+
+              // Create nodes for the force simulation
+              var nodes = data.map((d, i) => ({
+                  id: i,
+                  word: d.word,
+                  count: d.count,
+                  radius: radiusScale(d.count),
+                  color: colorScale(d.count)
+              }));
+
+              // Create force simulation
+              var simulation = d3.forceSimulation(nodes)
+                  .force('charge', d3.forceManyBody().strength(-65)) // Decreased repulsion strength
+                  .force('x', d3.forceX().strength(0.05).x(width / 2))
+                  .force('y', d3.forceY().strength(0.1).y(height / 2 + margin.top)) // Adjusted y force and strength
+                  .force('collision', d3.forceCollide().radius(d => d.radius + 2).strength(1)) // Increased bubble separation
+                  .on('tick', ticked);
+
+              // Create circles (bubbles)
+              var bubbles = svg.selectAll('.bubble')
+                  .data(nodes)
+                  .enter().append('circle')
+                  .attr('class', 'bubble')
+                  .attr('r', d => d.radius)
+                  .style('fill', d => d.color)
+                  .on('mouseover', handleMouseOver)
+                  .on('mouseout', handleMouseOut)
+                  .call(drag(simulation));
+
+              // Create labels inside bubbles
+              var labels = svg.selectAll('.bubble-label')
+                  .data(nodes)
+                  .enter().append('text')
+                  .attr('class', 'bubble-label')
+                  .attr('dy', '.3em')
+                  .attr('text-anchor', 'middle')
+                  .style('pointer-events', 'none') // Make sure labels don't interfere with dragging
+                  .text(d => d.word + " (" + d.count + ")")
+                  .style('fill', 'black'); // Text color
+
+              // Handle mouse over event
+              function handleMouseOver(event, d) {
+                  d3.select(this).style('fill', 'orange');
+              }
+
+              // Handle mouse out event
+              function handleMouseOut(event, d) {
+                  d3.select(this).style('fill', d.color);
+              }
+
+              // Tick function for simulation
+              function ticked() {
+                  bubbles.attr('cx', d => d.x)
+                      .attr('cy', d => d.y);
+
+                  labels.attr('x', d => d.x)
+                      .attr('y', d => d.y);
+              }
+
+              // Drag function for nodes
+              function drag(simulation) {
+                  function dragstarted(event, d) {
+                      if (!event.active) simulation.alphaTarget(0.3).restart();
+                      d.fx = d.x;
+                      d.fy = d.y;
+                  }
+
+                  function dragged(event, d) {
+                      d.fx = event.x;
+                      d.fy = event.y;
+                  }
+
+                  function dragended(event, d) {
+                      if (!event.active) simulation.alphaTarget(0);
+                      d.fx = null;
+                      d.fy = null;
+                  }
+
+                  return d3.drag()
+                      .on('start', dragstarted)
+                      .on('drag', dragged)
+                      .on('end', dragended);
+              }
+          })
+          .catch(error => console.error('Error fetching data:', error));
+  </script>
 <div class="col-sm-12 pull clearfix space_all">
   <div class="col-sm-7 pull space_all">
     <div class="about_inner">
@@ -293,9 +425,11 @@
               <svg id="bubble-chart" width="695" height="452"></svg>
           </div>
           <div class="about_inner_1" id="textBox">
-              <h2>Asian American Hate Speech Word Bubble</h2>
+              <h2>This word bubble shows the wordcount of specific keyterms in the article:</h2>
               <ul style="list-style-type: disc; font-size: 20px;">
-                  <li>This word bubble shows the wordcount of specific keyterms in articles about Asian American Hate.​​</li>
+                  <li>"The ways racism emerged in the era of president
+                    Donald Trump and its impact on Asian-Americans
+                    during COVID-19: A sentiment analysis"​​</li>
               </ul>
           </div>
       </div>
@@ -416,7 +550,35 @@
           })
           .catch(error => console.error('Error fetching data:', error));
   </script>
-  
+<div class="col-sm-12 space_all">
+  <div class="col-sm-4 space_all">
+      <div class="about_3">
+          <ul>
+              
+          </ul>
+      </div>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+      /* Style the bubbles */
+      .bubble {
+          cursor: pointer;
+      }
+
+      /* Style the text inside bubbles */
+      .bubble-label {
+          fill: black; /* Text color */
+          font-size: px; /* Decreased font size */
+          text-anchor: middle;
+      }
+
+      /* Style the SVG container */
+      #bubble-chart-2 {
+          background-color: white; /* White background color */
+      }
+  </style>
+</head>
+
 </div>
 	<div class="col-sm-8"></div>
    </div>

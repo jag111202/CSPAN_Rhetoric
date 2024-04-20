@@ -2271,8 +2271,11 @@ margin-bottom: 0px;
 
   .about_inner_1 {
     flex-basis: 100%; /* Take full width on smaller screens */
+    max-width: calc(100% - 40px); /* Adjust max-width to account for padding and border */
+    margin: 10px 20px; /* Adjust margin for spacing */
   }
 }
+
 
 .about_inner_1 h2 {
   font-size: 30px;
