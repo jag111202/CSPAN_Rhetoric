@@ -104,7 +104,7 @@
   d3.csv("melted_data.csv").then(function(data) {
     // Create the violin plot using Plotly and D3.js
     var layout = {
-      title: "Violin Plot",
+      title: "Textblob Sentiment Analysis",
       xaxis: {
         title: "Analysis Type",
         automargin: true, // Automatically adjust margin to fit labels
@@ -223,6 +223,7 @@
 
   // Layout for the graph
   var layout = {
+    title: 'Vader Sentiment Analysis',
     xaxis: {title: 'President and Topic'},
     yaxis: {title: 'Sentiment Percentage'},
     barmode: 'stack'
@@ -255,12 +256,38 @@
 		<div class="col-sm-5 pull">
 		</div>
 	  </div>
+    
+  </script>
+  <div class="col-sm-12 space_all">
+    <div class="col-sm-4 space_all">
+        <div class="about_3">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-12 pull clearfix space_all">
+      <div class="col-sm-7 pull space_all">
+        <div class="about_inner">
+          <iframe src="Combined_Sentiment_Analysis_plotly_plot.html" width="1000" height="800" frameborder="0"></iframe>
+        </div>
+       
+      </div>
+      <div class="col-sm-5 pull">
+      </div>
+      </div>
 	<div class="col-sm-8"></div>
    </div>
   </div>
  </div>
-
+ <section id="about">
+  <div class="container">
+   <div class="row">
+    <div class="about_1">
+     <h2>Conclusion</h2>
+   <p>Conclusion here:​​</p>
+    </div>
 </section>
+
  <section id="team" class="background_1 team_page">
 	 <div class="container">
 	  <div class="row">
